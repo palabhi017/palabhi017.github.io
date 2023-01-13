@@ -1,9 +1,9 @@
 import React from 'react'
-import {Heading,Text,HStack,Image,VStack,Button,Input,Stack,Box,Link} from "@chakra-ui/react"
+import {Heading,Text,HStack,Image,VStack,Button,Input,Stack,Box,Link,Flex} from "@chakra-ui/react"
 const Contect = () => {
   return (
-    <HStack h="auto" p={"30px"} w="100%">
-        <VStack w="50%">
+    <Flex  direction={{base:"column",lg:'row'}} h="auto" p={{base:"0px",lg:'30px'}} w="100%">
+        <VStack w={{base:"90%",lg:"50%"}} h="40%"  margin={"auto"}>
         <Heading fontSize={"50px"} mt="10px">Get In Touch</Heading>
         <Text fontSize={"20px"} mt="10px">Phone :- +919993805253</Text>
         <HStack mt="10px" justify={"center"}>
@@ -12,24 +12,25 @@ const Contect = () => {
                <Link  target={"_blank"} href="palabhi017@gmail.com"  borderRadius={"5px"} w="12%"> <Image   src="https://icones.pro/wp-content/uploads/2021/05/icones-de-messagerie-noires-300x300.png"/></Link>
         </HStack>
         </VStack>
-        <VStack w="50%">
+        <VStack w={{base:"100%",lg:"50%"}}>
         <Stack
+        mt="30px"
           bg={'gray.50'}
           rounded={'xl'}
-          p={{ base: 4, sm: 6, md: 8 }}
-          spacing={{ base: 8 }}
-          maxW={"600px"}>
+          p={{ base: 4,  md: 8 }}
+          spacing={{ base: 2 }}
+         w={{base:"90%",lg:"60%"}}>
           <Stack spacing={4}>
             <Heading
-              color={'gray.800'}
+              color={'#008970'}
               lineHeight={1.1}
               fontSize={{ base: '2xl', sm: '3xl', md: '4xl' }}>
               Connect with me
               <Text
                 as={'span'}
-                bgGradient="linear(to-r, red.400,pink.400)"
+                bgColor="#008970"
                 bgClip="text">
-                !
+                {" "}!
               </Text>
             </Heading>
             <Text color={'gray.500'} fontSize={{ base: 'sm', sm: 'md' }}>
@@ -48,6 +49,7 @@ const Contect = () => {
                 _placeholder={{
                   color: 'gray.500',
                 }}
+                w={{base:"100%",lg:"100%"}}
               />
               <Input
                name='Email'
@@ -77,11 +79,11 @@ const Contect = () => {
               fontFamily={'heading'}
               mt={8}
               w={'full'}
-              bgGradient="linear(to-r, red.400,pink.400)"
+              bgColor="#008970"
               color={'white'}
               _hover={{
                 bgGradient: 'linear(to-r, red.400,pink.400)',
-                boxShadow: 'xl',
+                boxShadow: 'xl'
               }}>
               Send
             </Button>
@@ -91,7 +93,7 @@ const Contect = () => {
         </Stack>
     </VStack>
         
-    </HStack>
+    </Flex>
     
   )
 }
