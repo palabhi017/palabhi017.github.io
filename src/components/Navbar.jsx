@@ -1,6 +1,6 @@
 import {HStack,Box,Image,Text,Stack,VStack} from "@chakra-ui/react"
 import React from "react"
-
+import portlogo from "../Images/portlogo.png"
 import {
     Drawer,
     DrawerBody,
@@ -20,8 +20,8 @@ export default function Navbar(){
     return (
         <>
         <HStack zIndex={"1"} pos="fixed" top="0px"  borderRadius={"10px"} w={"100%"} m="auto" boxSizing="border-box" bgColor={"#f5f5ff"} h="80px" justifyContent={"space-between"} p="10px 30px">
-            <Box>
-            <Image w={"25%"} src='https://logos.textgiraffe.com/logos/logo-name/32560807-designstyle-pixels-o.png' alt='Dan Abramov' />
+            <Box ml="30px">
+            <Image w={"20%"} src={portlogo} alt='Dan Abramov' />
             </Box>
             <Hide below="700px">
             <HStack justifyContent={"space-evenly"} font-family={"IBM Plex Sans', sans-serif"} fontWeight="900" w={"50%"} fontSize={"20px"} color="#693fee" >

@@ -39,8 +39,8 @@ export default function Projects(){
             <Image borderRadius={"5px"} src={Time}/>
             </Box>
             <Flex gap="20px">
-            <Link target={"_blank"} href="https://github.com/palabhi017/terrific-language-9890"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><FaGithub/>GitHub</Flex></Link>
-            <Link target={"_blank"} href="https://time-always.netlify.app/"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><GrDeploy/>Deploy</Flex></Link>
+            <Link target={"_blank"} href="https://github.com/palabhi017/terrific-language-9890"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><FaGithub color="#2f1c6a"/>GitHub</Flex></Link>
+            <Link target={"_blank"} href="https://time-always.netlify.app/"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><GrDeploy color="#2f1c6a" size="20px"/>Deploy</Flex></Link>
             </Flex>
             
             </VStack>
@@ -57,8 +57,8 @@ export default function Projects(){
             <Image borderRadius={"5px"} src={Chargebee}/>
             </Box>
             <Flex gap="20px">
-            <Link target={"_blank"} href="https://github.com/palabhi017/loving-friends-4004"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><FaGithub/>GitHub</Flex></Link>
-            <Link target={"_blank"} href="https://fluffy-jelly-ba9f7f.netlify.app/"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><GrDeploy/>Deploy</Flex></Link>
+            <Link target={"_blank"} href="https://github.com/palabhi017/loving-friends-4004"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><FaGithub color="#2f1c6a"/>GitHub</Flex></Link>
+            <Link target={"_blank"} href="https://fluffy-jelly-ba9f7f.netlify.app/"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><GrDeploy color="#2f1c6a" size="20px"/>Deploy</Flex></Link>
             </Flex>
             </VStack>
         </HStack>
@@ -76,8 +76,8 @@ export default function Projects(){
             <Image borderRadius={"5px"} src={Airtable}/>
             </Box>
             <Flex gap="20px">
-            <Link target={"_blank"} href="https://github.com/palabhi017/bewildered-discussion-8431/tree/main/timetable"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><FaGithub/>GitHub</Flex></Link>
-            <Link target={"_blank"} href="https://time-blue.vercel.app/"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><GrDeploy/>Deploy</Flex></Link>
+            <Link target={"_blank"} href="https://github.com/palabhi017/bewildered-discussion-8431/tree/main/timetable"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><FaGithub color="#2f1c6a"/>GitHub</Flex></Link>
+            <Link target={"_blank"} href="https://time-blue.vercel.app/"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><GrDeploy color="#2f1c6a" size="20px"/>Deploy</Flex></Link>
             </Flex>
             </VStack>
             <VStack gap={5}  w="50%" >
@@ -94,8 +94,8 @@ export default function Projects(){
             <Image borderRadius={"5px"} src={Time}/>
             </Box>
             <Flex gap="20px">
-            <Link target={"_blank"} href="https://github.com/palabhi017/terrific-language-9890"><Flex gap="5px" alignItems={"center"} color="#693fee"  fontSize={"25px"}><FaGithub/>GitHub</Flex></Link>
-            <Link target={"_blank"} href="https://time-always.netlify.app/"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><GrDeploy/>Deploy</Flex></Link>
+            <Link target={"_blank"} href="https://github.com/palabhi017/terrific-language-9890"><Flex gap="5px" alignItems={"center"} color="#693fee"  fontSize={"25px"}><FaGithub color="#2f1c6a"/>GitHub</Flex></Link>
+            <Link target={"_blank"} href="https://time-always.netlify.app/"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><GrDeploy color="#2f1c6a" size="20px"/>Deploy</Flex></Link>
             </Flex>
             </VStack>
         </HStack>
