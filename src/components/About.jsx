@@ -1,5 +1,5 @@
 import {Box,Image,HStack,VStack,Text,Heading} from "@chakra-ui/react"
-import Profilepic from "../Images/portprofile.png"
+import Profilepic from "../Images/portprofile.jpg"
 // import linkdin from "../Images/linkedin.png"
 // import github from "../Images/github(3).png"
 // import msg from "../Images/mailimg.png"
@@ -9,19 +9,19 @@ export default function About(){
     return (
         <>
         <Show above="700px" >
-            <Box boxSizing="border-box"  w={"98%"}  m="auto" bgColor="#008970" h={"600px"} mt={"90px"} borderRadius="10px">
-            <Heading color="#ffe77b" fontSize={"50px"}>About Me</Heading>
-            <HStack  justifyContent={"space-evenly"}  w={"98%"} m="auto" h={"500px"}  >
+            <Box boxSizing="border-box"  w={"100%"}  m="auto" bgColor="#f5f5f7" h={"auto"} mt={"90px"} borderRadius="10px">
+            <Heading p="30px" color="#693fee" fontSize={"40px"}>About Me</Heading>
+            <HStack p="40px"  justifyContent={"space-evenly"}  w={"98%"} m="auto" h={"auto"}  >
             
-            <Box  w="25%" boxShadow= "rgba(0, 0, 0, 0.24) 0px 3px 8px" >
-            <Image w={"90%"} m="auto" borderRadius={"10px"}  src={Profilepic} alt='' />
+            <Box  w="25%" borderRadius={"10px"} border="2px solid #693fee" p="5px" boxShadow= "rgba(0, 0, 0, 0.24) 0px 3px 8px" >
+            <Image w={"100%"}  m="auto" borderRadius={"10px"}  src={Profilepic} alt='' />
             </Box>
             <Box w="40%">
             <VStack>
             <Box    >
-                <Heading color="white">Hi..</Heading>
-                <Heading color="white">I am Abhishek Pal</Heading>
-                <Text mt="10px" fontSize={"23px"} color="#ffe77b" fontWeight={"bold"}>"Full stack web developer with a passion for creating intuitive and functional web applications using a variety of technologies including HTML, CSS, JavaScript, and modern frameworks such as React and Node.js.</Text>
+                <Heading color="#693fee">Hi..</Heading>
+                <Heading color="#2f1c6a">I am Abhishek Pal</Heading>
+                <Text mt="10px" fontSize={"23px"} color="#4f3f7d" fontWeight={"bold"}>"Full stack web developer with a passion for creating intuitive and functional web applications using a variety of technologies including HTML, CSS, JavaScript, and modern frameworks such as React and Node.js.</Text>
             </Box>
             <HStack justify={"center"}>
                 <Image w="9%" borderRadius={"5px"} src="https://www.bing.com/th?id=OIP.C8b27iRAS2bcSGd-v_duTgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" />
@@ -30,7 +30,9 @@ export default function About(){
             </HStack>
             </VStack>
             </Box>
+           
         </HStack>
+       
             </Box>
        
 

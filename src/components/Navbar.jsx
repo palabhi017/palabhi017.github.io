@@ -1,5 +1,6 @@
 import {HStack,Box,Image,Text,Stack,VStack} from "@chakra-ui/react"
 import React from "react"
+
 import {
     Drawer,
     DrawerBody,
@@ -9,6 +10,7 @@ import {
    
   } from '@chakra-ui/react'
   // import { FcAbout } from 'react-icons/fc'
+  import {HashLink as Link} from "react-router-hash-link"
   import { useDisclosure } from '@chakra-ui/react'
   import { Show, Hide } from '@chakra-ui/react'
   import { HamburgerIcon } from '@chakra-ui/icons'
@@ -17,17 +19,17 @@ export default function Navbar(){
   const btnRef = React.useRef()
     return (
         <>
-        <HStack zIndex={"1"} pos="fixed" top="0px" left="1%" borderRadius={"10px"} w={"98%"} m="auto" boxSizing="border-box" bg={"#1b49be"} h="80px" justifyContent={"space-between"} p="10px 30px">
+        <HStack zIndex={"1"} pos="fixed" top="0px"  borderRadius={"10px"} w={"100%"} m="auto" boxSizing="border-box" bgColor={"#f5f5ff"} h="80px" justifyContent={"space-between"} p="10px 30px">
             <Box>
             <Image w={"25%"} src='https://logos.textgiraffe.com/logos/logo-name/32560807-designstyle-pixels-o.png' alt='Dan Abramov' />
             </Box>
             <Hide below="700px">
-            <HStack justifyContent={"space-evenly"} fontWeight="900" w={"50%"} fontSize={"20px"} color="white" >
+            <HStack justifyContent={"space-evenly"} font-family={"IBM Plex Sans', sans-serif"} fontWeight="900" w={"50%"} fontSize={"20px"} color="#693fee" >
                 <Text >About</Text>
-                <Text>Skills</Text>
+               <Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#Skills" >Skills</Link>
                 <Text>Project</Text>
                 <Text>Contect</Text>
-                <Text>Resume</Text>
+               <a href="Abhishek_Pal_Resume.pdf"  download={"Abhishek_Pal_Resume"}><Text color="white" bgColor="#693fee" p="5px" borderRadius={"5px"}>Resume</Text></a> 
             </HStack>
             </Hide> 
             <Show breakpoint='(max-width: 700px)'> 

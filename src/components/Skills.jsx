@@ -5,8 +5,8 @@ export default function Skills(){
 
     return (
 <>
-    <Box  boxSizing="border-box" pb="30px" w={"98%"} m="auto" h={{sm:"auto",md:"auto",lg:"600px"}} mt={"10px"} borderRadius="10px" bgColor="#008970">
-    <Heading color="#ffe77b"><TypeAnimation
+    <Box id="Skills"  boxSizing="border-box" pb="30px" w={"98%"} m="auto" h={{sm:"auto",md:"auto",lg:"auto"}} mt={"10px"} borderRadius="10px" bgColor="#f5f5f7">
+    <Heading p="30px" color="#693fee"><TypeAnimation
       sequence={[
         2000,
          "Technical Skills",
@@ -22,9 +22,9 @@ export default function Skills(){
     />   </Heading>
     
         <Show above="801px">
-        <Box style={{width:"100%"}} h="450px" overflow="hidden" m="auto" top="100px" pos="relative"  w="0%"  >
+        <Box style={{width:"100%"}} h="auto" overflow="hidden" p="30px" m="auto"  pos="relative"  w="0%"  >
     
-        <Box  h="100%" w="200%" overflow={"hidden"} display={"flex"} className="slide">
+        <Box  h="auto" p="10px" w="200%" overflow={"hidden"} display={"flex"} className="slide">
         <Box >
         <Grid templateColumns='repeat(5, 20%)' templateRows='repeat(1, auto)' m="auto" marginTop="30px" w="100%" gap={4}>
         <Box w='50%'  borderRadius={"30px"}  bg='white' boxShadow= "rgba(0, 0, 0, 0.24) 0px 3px 8px">
