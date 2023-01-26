@@ -1,4 +1,7 @@
 import React from 'react'
+import {BsLinkedin} from "react-icons/bs"
+import {BiMessageRoundedDetail} from "react-icons/bi"
+import { FaGithub } from 'react-icons/fa';
 import {Heading,Text,HStack,Image,VStack,Button,Input,Stack,Box,Link,Flex, Textarea} from "@chakra-ui/react"
 const Contect = () => {
   return (
@@ -6,10 +9,10 @@ const Contect = () => {
         <VStack w={{base:"90%",lg:"50%"}} h="40%"  margin={"auto"}>
         <Heading fontSize={"50px"} mt="10px" color="#693fee">Get In Touch</Heading>
         <Text fontSize={"20px"} mt="10px" color="#2f1c6a">Phone :- +919993805253</Text>
-        <HStack mt="10px" justify={"center"}>
-              <Link target={"_blank"} href="https://www.linkedin.com/in/abhishek-pal-14416323b/" w="10%" borderRadius={"5px"}> <Image src="https://www.bing.com/th?id=OIP.C8b27iRAS2bcSGd-v_duTgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" /></Link>
-               <Link  target={"_blank"} href="https://github.com/palabhi017"  w="14%" borderRadius={"5px"}> <Image  src="https://www.pngarts.com/files/8/Black-Github-Logo-PNG-Image-Background.png"/></Link>
-               <Link  target={"_blank"} href="palabhi017@gmail.com"  borderRadius={"5px"} w="12%"> <Image   src="https://icones.pro/wp-content/uploads/2021/05/icones-de-messagerie-noires-300x300.png"/></Link>
+        <HStack mt="10px" justify={"center"} gap="30px">
+              <Link target={"_blank"} href="https://www.linkedin.com/in/abhishek-pal-14416323b/" w="10%" borderRadius={"5px"}><BsLinkedin color="#2f1c6a"  size="50px"/></Link>
+               <Link  target={"_blank"} href="https://github.com/palabhi017"  w="14%" borderRadius={"5px"}>  <FaGithub color="#2f1c6a"  size="55px"/></Link>
+               <Link  target={"_blank"} href="palabhi017@gmail.com"  borderRadius={"5px"} w="12%"><BiMessageRoundedDetail color="#2f1c6a" size="60px"/></Link>
         </HStack>
         </VStack>
         <VStack w={{base:"100%",lg:"50%"}}>
