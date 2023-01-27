@@ -6,8 +6,16 @@ import Airtable from "../Images/Airtable.png"
 import { FaGithub } from 'react-icons/fa';
 import { GrDeploy } from 'react-icons/gr';
 import ReadMoreReact from 'read-more-react';
+import SwiftSlider from 'react-swift-slider'
 export default function Projects(){
-
+  
+  const data =  [
+    {'id':'1','src':Airtable},
+    {'id':'2','src':Chargebee},
+    {'id':'3','src':Time},
+    
+  ];
+  
     return (
         <Box className="Project"  boxSizing="border-box"  w={"98%"} m="auto" h={"auto"} mt={"10px"} borderRadius="10px" bgColor="#f5f5f7">
           <Heading p="30px" fontSize={"40px"} color="#693fee">
@@ -35,9 +43,11 @@ export default function Projects(){
               <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"}  fontWeight={"bold"} color="#fff">CSS</Box>
              <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"}  fontWeight={"bold"} color="#fff">JavaScript</Box>
             </Flex>
-            <Box    boxShadow= "rgba(0, 0, 0, 0.80) 0px 3px 8px" w="80%">
-            <Image borderRadius={"5px"} src={Time}/>
+           
+            <Box zIndex={2} w="80%" h="380px"  boxShadow= "rgba(0, 0, 0, 0.80) 0px 3px 8px" borderRadius={"5px"}> 
+            <SwiftSlider height={380} enableNextAndPrev={false} interval={2000} showDots={false} data={data}/>
             </Box>
+            
             <Flex gap="20px">
             <Link target={"_blank"} href="https://github.com/palabhi017/terrific-language-9890"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><FaGithub color="#2f1c6a"/>GitHub</Flex></Link>
             <Link target={"_blank"} href="https://time-always.netlify.app/"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><GrDeploy color="#2f1c6a" size="20px"/>Deploy</Flex></Link>

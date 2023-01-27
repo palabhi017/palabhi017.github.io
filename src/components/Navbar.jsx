@@ -19,7 +19,7 @@ export default function Navbar(){
   const btnRef = React.useRef()
     return (
         <>
-        <HStack zIndex={"1"} pos="fixed" top="0px"  borderRadius={"10px"} w={"100%"} m="auto" boxSizing="border-box" bgColor={"#f5f5ff"} h="80px" justifyContent={"space-between"} p="10px 30px">
+        <HStack zIndex={1} pos="fixed" top="0px"  borderRadius={"10px"} w={"100%"} m="auto" boxSizing="border-box" bgColor={"#f5f5ff"} h="80px" justifyContent={"space-between"} p="10px 30px">
             <Box ml="30px">
             <Image w={"20%"} src={portlogo} alt='Dan Abramov' />
             </Box>
