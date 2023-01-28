@@ -1,8 +1,21 @@
 import {Box,Heading,Text,HStack,VStack,Image,Show,Flex,Link} from "@chakra-ui/react"
 import { TypeAnimation } from 'react-type-animation';
 import Time from "../Images/TimeAlways.png"
+import T2 from "../Images/T2.png"
+import T3 from "../Images/T3.png"
+import T4 from "../Images/T4.png"
+import C2 from "../Images/C2.png"
+import C3 from "../Images/C3.png"
+import C4 from "../Images/C4.png"
+import A2 from "../Images/A2.png"
+import A3 from "../Images/A3.png"
+import A4 from "../Images/A4.png"
 import Chargebee from "../Images/chargebee.png"
 import Airtable from "../Images/Airtable.png"
+import Dailyneeds from "../Images/Dailyneeds.png"
+import D2 from "../Images/D2.png"
+import D3 from "../Images/D3.png"
+import D4 from "../Images/D4.png"
 import { FaGithub } from 'react-icons/fa';
 import { GrDeploy } from 'react-icons/gr';
 import ReadMoreReact from 'read-more-react';
@@ -10,9 +23,31 @@ import SwiftSlider from 'react-swift-slider'
 export default function Projects(){
   
   const data =  [
-    {'id':'1','src':Airtable},
-    {'id':'2','src':Chargebee},
-    {'id':'3','src':Time},
+    {'id':'1','src': Time},
+    {'id':'2','src': T2},
+    {'id':'3','src': T3},
+    {'id':'4','src': T4},
+    
+  ];
+  const data2 =  [
+    {'id':'1','src': Chargebee},
+    {'id':'2','src': C2},
+    {'id':'3','src': C3},
+    {'id':'4','src': C4},
+    
+  ];
+  const data3 =  [
+    {'id':'1','src': Airtable},
+    {'id':'2','src': A2},
+    {'id':'3','src': A3},
+    {'id':'4','src': A4},
+    
+  ];
+  const data4 =  [
+    {'id':'1','src': Dailyneeds},
+    {'id':'2','src': D2},
+    {'id':'3','src': D3},
+    {'id':'4','src': D4},
     
   ];
   
@@ -63,8 +98,8 @@ export default function Projects(){
               <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"}  fontWeight={"bold"} color="#fff">CSS</Box>
              <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"}  fontWeight={"bold"} color="#fff">JavaScript</Box>
             </Flex>
-            <Box    boxShadow= "rgba(0, 0, 0, 0.80) 0px 3px 8px" w="80%">
-            <Image borderRadius={"5px"} src={Chargebee}/>
+            <Box zIndex={2} w="80%" h="380px"  boxShadow= "rgba(0, 0, 0, 0.80) 0px 3px 8px" borderRadius={"5px"}> 
+            <SwiftSlider height={380} enableNextAndPrev={false} interval={2000} showDots={false} data={data2}/>
             </Box>
             <Flex gap="20px">
             <Link target={"_blank"} href="https://github.com/palabhi017/loving-friends-4004"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><FaGithub color="#2f1c6a"/>GitHub</Flex></Link>
@@ -82,8 +117,8 @@ export default function Projects(){
               <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"}  fontWeight={"bold"} color="#fff">Chakra Ui</Box>
              <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"}  fontWeight={"bold"} color="#fff">Render</Box>
             </Flex>
-            <Box    boxShadow= "rgba(0, 0, 0, 0.80) 0px 3px 8px" w="80%">
-            <Image borderRadius={"5px"} src={Airtable}/>
+            <Box zIndex={2} w="80%" h="380px"  boxShadow= "rgba(0, 0, 0, 0.80) 0px 3px 8px" borderRadius={"5px"}> 
+            <SwiftSlider height={380} enableNextAndPrev={false} interval={2000} showDots={false} data={data3}/>
             </Box>
             <Flex gap="20px">
             <Link target={"_blank"} href="https://github.com/palabhi017/bewildered-discussion-8431/tree/main/timetable"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><FaGithub color="#2f1c6a"/>GitHub</Flex></Link>
@@ -100,12 +135,12 @@ export default function Projects(){
               <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"}  fontWeight={"bold"} color="#fff">Redux</Box>
              <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"}  fontWeight={"bold"} color="#fff">Chakra ui</Box>
             </Flex>
-            <Box    boxShadow= "rgba(0, 0, 0, 0.80) 0px 3px 8px" w="80%">
-            <Image borderRadius={"5px"} src={Time}/>
+            <Box zIndex={2} w="80%" h="380px"  boxShadow= "rgba(0, 0, 0, 0.80) 0px 3px 8px" borderRadius={"5px"}> 
+            <SwiftSlider height={380} enableNextAndPrev={false} interval={2000} showDots={false} data={data4}/>
             </Box>
             <Flex gap="20px">
-            <Link target={"_blank"} href="https://github.com/palabhi017/terrific-language-9890"><Flex gap="5px" alignItems={"center"} color="#693fee"  fontSize={"25px"}><FaGithub color="#2f1c6a"/>GitHub</Flex></Link>
-            <Link target={"_blank"} href="https://time-always.netlify.app/"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><GrDeploy color="#2f1c6a" size="20px"/>Deploy</Flex></Link>
+            <Link target={"_blank"} href="https://github.com/HANUMAT-SHARAN/bright-noise-2667/tree/master/cw-rct201"><Flex gap="5px" alignItems={"center"} color="#693fee"  fontSize={"25px"}><FaGithub color="#2f1c6a"/>GitHub</Flex></Link>
+            <Link target={"_blank"} href="https://gentle-kringle-071b60.netlify.app/"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><GrDeploy color="#2f1c6a" size="20px"/>Deploy</Flex></Link>
             </Flex>
             </VStack>
         </HStack>
