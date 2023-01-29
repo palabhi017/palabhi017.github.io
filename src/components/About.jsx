@@ -1,4 +1,4 @@
-import {Box,Image,HStack,VStack,Text,Heading} from "@chakra-ui/react"
+import {Box,Image,HStack,VStack,Text,Heading,Link} from "@chakra-ui/react"
 import Profilepic from "../Images/portprofile.jpg"
 import Aboutbg from "../Images/Aboutbg.png"
 import {BsLinkedin} from "react-icons/bs"
@@ -10,8 +10,8 @@ export default function About(){
 
     return (
         <>
-        <Show above="700px" >
-            <Box boxSizing="border-box"  w={"100%"}  m="auto" bgImage={Aboutbg} bgSize="cover" h={"auto"} mt={"90px"} borderRadius="10px">
+        <Show above="800px" >
+            <Box id="about" boxSizing="border-box"  w={"100%"}  m="auto" bgImage={Aboutbg} bgSize="cover" h={"auto"} mt={"90px"} borderRadius="10px">
             <Heading p="30px" color="#693fee" fontSize={"40px"}>About Me</Heading>
             <HStack p="40px"  justifyContent={"space-evenly"}  w={"98%"} m="auto" h={"auto"}  >
             
@@ -25,14 +25,11 @@ export default function About(){
                 <Heading color="#2f1c6a">I am Abhishek Pal</Heading>
                 <Text mt="10px" fontSize={"23px"} color="#4f3f7d" fontWeight={"bold"}>"Full stack web developer with a passion for creating intuitive and functional web applications using a variety of technologies including HTML, CSS, JavaScript, and modern frameworks such as React and Node.js.</Text>
             </Box>
-            <HStack justify={"center"} gap="10px">
-                {/* <Image w="9%" borderRadius={"5px"} src="https://www.bing.com/th?id=OIP.C8b27iRAS2bcSGd-v_duTgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" />
-                <Image w="12%"  src="https://www.pngarts.com/files/8/Black-Github-Logo-PNG-Image-Background.png"/>
-                <Image w="10%"  src="https://icones.pro/wp-content/uploads/2021/05/icones-de-messagerie-noires-300x300.png"/> */}
-                <BsLinkedin color="#2f1c6a"  size="30px"/>
-                <FaGithub color="#2f1c6a"  size="35px"/>
-                <BiMessageRoundedDetail color="#2f1c6a" size="40px"/>
-            </HStack>
+            <HStack  justify={"center"} gap="20px">
+              <Link target={"_blank"} href="https://www.linkedin.com/in/abhishek-pal-14416323b/" w="10%" borderRadius={"5px"}><BsLinkedin color="#2f1c6a"  size="30px"/></Link>
+               <Link  target={"_blank"} href="https://github.com/palabhi017"  w="14%" borderRadius={"5px"}>  <FaGithub color="#2f1c6a"  size="35px"/></Link>
+               <Link  target={"_blank"} href="palabhi017@gmail.com"  borderRadius={"5px"} w="12%"><BiMessageRoundedDetail color="#2f1c6a" size="40px"/></Link>
+        </HStack>
             </VStack>
             </Box>
            
@@ -42,23 +39,23 @@ export default function About(){
        
 
         </Show>
-        <Show below="700px">
-        <VStack justifyContent={"space-evenly"} boxSizing="border-box"  w={"98%"} m="auto" pb="10px" h={"auto"} mt={"90px"} borderRadius="10px" bgColor="#008970">
-        <Heading color="#ffe77b" fontSize={"30px"}>About Me</Heading>
-            <Box mt="20px"   w="55%" boxShadow= "rgba(0, 0, 0, 0.24) 0px 3px 8px" >
+        <Show below="800px">
+        <VStack justifyContent={"space-evenly"} boxSizing="border-box" bgColor="#f5f5f7" w={"98%"} m="auto" pb="10px" h={"auto"} mt={"90px"} borderRadius="10px" >
+        <Heading color="#693fee" p="20px" fontSize={"30px"}>About Me</Heading>
+            <Box mt="20px" border="2px solid #693fee" borderRadius={"5px"} w="55%" boxShadow= "rgba(0, 0, 0, 0.24) 0px 3px 8px" >
             <Image w={"90%"} m="auto" borderRadius={"10px"}  src={Profilepic}  />
             </Box>
             <VStack>
             <Box w="80%"  >
-                <Heading color="#fff">Hi..</Heading>
-                <Heading color="#fff">I am Abhishek Pal</Heading>
-                <Text w="90%" m="auto" mt="10px" fontSize={"23px"} textAlign="justify" color="#ffe77b">"Full stack web developer with a passion for creating intuitive and functional web applications using a variety of technologies including HTML, CSS, JavaScript, and modern frameworks such as React and Node.js.</Text>
+                <Heading color="#693fee">Hi..</Heading>
+                <Heading color="#2f1c6a">I am Abhishek Pal</Heading>
+                <Text w="90%" m="auto" mt="10px" fontSize={"23px"} textAlign="justify" color="#2f1c6a">"Full stack web developer with a passion for creating intuitive and functional web applications using a variety of technologies including HTML, CSS, JavaScript, and modern frameworks such as React and Node.js.</Text>
             </Box>
-            <HStack justify={"center"}>
-                <Image w={"10%"} src={"https://www.bing.com/th?id=OIP.C8b27iRAS2bcSGd-v_duTgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"} />
-                <Image w={"14%"} src={"https://www.pngarts.com/files/8/Black-Github-Logo-PNG-Image-Background.png"}/>
-                <Image w={"12%"} src={"https://icones.pro/wp-content/uploads/2021/05/icones-de-messagerie-noires-300x300.png"}/>
-            </HStack>
+            <HStack  justify={"center"} gap="20px">
+              <Link target={"_blank"} href="https://www.linkedin.com/in/abhishek-pal-14416323b/" w="10%" borderRadius={"5px"}><BsLinkedin color="#2f1c6a"  size="30px"/></Link>
+               <Link  target={"_blank"} href="https://github.com/palabhi017"  w="14%" borderRadius={"5px"}>  <FaGithub color="#2f1c6a"  size="35px"/></Link>
+               <Link  target={"_blank"} href="palabhi017@gmail.com"  borderRadius={"5px"} w="12%"><BiMessageRoundedDetail color="#2f1c6a" size="40px"/></Link>
+        </HStack>
             </VStack>
         </VStack>
         </Show>

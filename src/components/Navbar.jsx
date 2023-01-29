@@ -23,18 +23,18 @@ export default function Navbar(){
             <Box ml="30px">
             <Image w={"20%"} src={portlogo} alt='Dan Abramov' />
             </Box>
-            <Hide below="700px">
+            <Hide below="800px">
             <HStack justifyContent={"space-evenly"} font-family={"IBM Plex Sans', sans-serif"} fontWeight="900" w={"50%"} fontSize={"20px"} color="#693fee" >
-                <Text >About</Text>
+            <Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#about" >About</Link>
                <Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#Skills" >Skills</Link>
-                <Text>Project</Text>
-                <Text>Contect</Text>
+               <Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#project" >Project</Link>
+               <Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#contect" >Contect</Link>
                <a href="Abhishek_Pal_Resume.pdf"  download={"Abhishek_Pal_Resume"}><Text color="white" bgColor="#693fee" p="5px" borderRadius={"5px"}>Resume</Text></a> 
             </HStack>
             </Hide> 
-            <Show breakpoint='(max-width: 700px)'> 
+            <Show breakpoint='(max-width: 800px)'> 
              <Stack>
-             <HamburgerIcon color={"white"} boxSize={"40px"}  ref={btnRef} colorScheme='teal' onClick={onOpen} />
+             <HamburgerIcon color={"#2f1c6a"} boxSize={"40px"}  ref={btnRef} colorScheme='teal' onClick={onOpen} />
             
           
             </Stack> 
@@ -47,11 +47,11 @@ export default function Navbar(){
          
               <DrawerBody>
                <VStack fontSize={"30px"}>
-               <Text w="100%" textAlign={"center"} borderRadius="0px 0px 15px 15px" borderBottom={"2px solid #1b49be"}>About</Text>
-                <Text w="100%" textAlign={"center"} borderRadius="0px 0px 15px 15px" borderBottom={"2px solid #1b49be"}>Skills</Text>
-                <Text w="100%" textAlign={"center"} borderRadius="0px 0px 15px 15px" borderBottom={"2px solid #1b49be"}>Project</Text>
-                <Text w="100%" textAlign={"center"} borderRadius="0px 0px 15px 15px" borderBottom={"2px solid #1b49be"}>Contect</Text>
-                <Text w="100%" textAlign={"center"} borderRadius="0px 0px 15px 15px" borderBottom={"2px solid #1b49be"}>Resume</Text>
+               <Text w="100%" textAlign={"center"} bgColor="#153d82" _hover={{bgColor:"#693fee"}} color="#fff" borderBottom={"2px solid #1b49be"}>About</Text>
+                <Text w="100%" textAlign={"center"} bgColor="#153d82" _hover={{bgColor:"#693fee"}} color="#fff" borderBottom={"2px solid #1b49be"}>Skills</Text>
+                <Text w="100%" textAlign={"center"} bgColor="#153d82" _hover={{bgColor:"#693fee"}} color="#fff" borderBottom={"2px solid #1b49be"}>Project</Text>
+                <Text w="100%" textAlign={"center"} bgColor="#153d82" _hover={{bgColor:"#693fee"}} color="#fff" borderBottom={"2px solid #1b49be"}>Contect</Text>
+                <Text w="100%" textAlign={"center"} bgColor="#153d82" _hover={{bgColor:"#693fee"}} color="#fff" borderBottom={"2px solid #1b49be"}>Resume</Text>
                </VStack>
               </DrawerBody>
             </DrawerContent>

@@ -26,13 +26,13 @@ const Gitstats = () => {
 <Box h={"auto"}  m="auto" width={"98%"}>
  {/* <div align="center" style={{display:"flex"}}> */}
 
-<img style={{height:"auto",width:"90%",margin:"auto"}} src="https://github-readme-stats.vercel.app/api?username=palabhi017&theme=react&border_radius=4.6&show_icons=true&count_private=true&hide_border=true&show_icons=true&bg_color=008970&title_color=ffffff&text_color=fff" alt=""  />
+<img style={{height:"auto",width:"90%",margin:"auto"}} src="https://github-readme-stats.vercel.app/api?username=palabhi017&theme=react&border_radius=4.6&show_icons=true&count_private=true&hide_border=true&show_icons=true&bg_color=2f1c6a&title_color=ffffff&text_color=fff" alt=""  />
 {/* <div align="center" > */}
  
-<img style={{height:"auto",width:"90%",margin:"auto"}} src="https://streak-stats.demolab.com?user=palabhi017&theme=highcontrast&background=008970"  alt=""/>
+<img style={{height:"auto",width:"90%",margin:"auto"}} src="https://streak-stats.demolab.com?user=palabhi017&theme=highcontrast&background=2f1c6a"  alt=""/>
 
 {/* </div>  */}
-  <img style={{height:"auto",width:"90%",margin:"auto"}} src="https://github-readme-stats.vercel.app/api/top-langs/?username=palabhi017&theme=transparent&border_radius=4.6&hide_border=true&layout=compact&show_icons=true&bg_color=008970&title_color=ffffff&text_color=fff" alt=""   />
+  <img style={{height:"auto",width:"90%",margin:"auto"}} src="https://github-readme-stats.vercel.app/api/top-langs/?username=palabhi017&theme=transparent&border_radius=4.6&hide_border=true&layout=compact&show_icons=true&bg_color=2f1c6a&title_color=ffffff&text_color=fff" alt=""   />
 
  {/* </div>  */}
 </Box >
