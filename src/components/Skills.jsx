@@ -22,7 +22,7 @@ export default function Skills(){
     />   </Heading>
     
         <Show above="801px">
-        <Box style={{width:"100%"}} h="auto" overflow="hidden" p="30px" m="auto"  pos="relative"  w="0%"  >
+        <Box id=".skills-card" style={{width:"100%"}} h="auto" overflow="hidden" p="30px" m="auto"  pos="relative"  w="0%"  >
     
         <Box  h="auto" p="10px" w="200%" overflow={"hidden"} display={"flex"} className="slide">
         <Box >

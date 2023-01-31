@@ -53,8 +53,8 @@ export default function Projects(){
   
     return (
         <Box id="project" className="Project"  boxSizing="border-box"  w={"98%"} m="auto" h={"auto"} mt={"10px"} borderRadius="10px" bgColor="#f5f5f7">
-          <Heading p="30px" fontSize={"40px"} color="#693fee">
-         <TypeAnimation
+          <Heading id="projects" p="30px" fontSize={"40px"} color="#693fee">
+         <TypeAnimation 
       sequence={[
         2000,
          "Projects",
@@ -68,7 +68,7 @@ export default function Projects(){
     /> 
     </Heading>
       <Show above="801px">
-        <HStack pb="40px" w="90%" m="auto" mt="50px">
+        <HStack id=".project-card" pb="40px" w="90%" m="auto" mt="50px">
             <VStack gap={5}  w="50%" borderRight={"3px solid #4f3f7d"}>
             <Heading color="#2f1c6a">DeskTime.com Clone</Heading>
             <Text w="80%" fontSize={"20px"} color="#4f3f7d" textAlign={"left"}>DeskTime is a time tracking tool with additional features for workforce management. These features can help you build a successful team that consistently achieves its goals.</Text>

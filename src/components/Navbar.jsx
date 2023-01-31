@@ -25,7 +25,7 @@ export default function Navbar(){
             </Box>
             <Hide below="800px">
             <HStack id="nav-menu" justifyContent={"space-evenly"} font-family={"IBM Plex Sans', sans-serif"} fontWeight="900" w={"50%"} fontSize={"20px"} color="#693fee" >
-            <Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#about" >About</Link>
+            <Link id=".nav-link.about"  scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#about" >About</Link>
                <Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#skills" >Skills</Link>
                <Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#project" >Project</Link>
                <Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#contect" >Contect</Link>
