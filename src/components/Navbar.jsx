@@ -24,12 +24,12 @@ export default function Navbar(){
             <Image w={"20%"} src={portlogo} alt='Dan Abramov' />
             </Box>
             <Hide below="800px">
-            <HStack justifyContent={"space-evenly"} font-family={"IBM Plex Sans', sans-serif"} fontWeight="900" w={"50%"} fontSize={"20px"} color="#693fee" >
+            <HStack id="nav-menu" justifyContent={"space-evenly"} font-family={"IBM Plex Sans', sans-serif"} fontWeight="900" w={"50%"} fontSize={"20px"} color="#693fee" >
             <Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#about" >About</Link>
-               <Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#Skills" >Skills</Link>
+               <Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#skills" >Skills</Link>
                <Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#project" >Project</Link>
                <Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#contect" >Contect</Link>
-               <a href="Abhishek_Pal_Resume.pdf"  download={"Abhishek_Pal_Resume"}><Text color="white" bgColor="#693fee" p="5px" borderRadius={"5px"}>Resume</Text></a> 
+               <a id="resume-button-1" href="Abhishek_Pal_Resume.pdf"  download={"Abhishek_Pal_Resume"}><Text color="white" bgColor="#693fee" p="5px" borderRadius={"5px"}>Resume</Text></a> 
             </HStack>
             </Hide> 
             <Show breakpoint='(max-width: 800px)'> 

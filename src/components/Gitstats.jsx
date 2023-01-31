@@ -11,13 +11,13 @@ const Gitstats = () => {
 <HStack h={"300px"}  m="auto" width={"98%"} justifyContent={"space-evenly"} alignItems="center">
  {/* <div align="center" style={{display:"flex"}}> */}
 
-<img style={{height:"250px",width:"33%"}} src="https://github-readme-stats.vercel.app/api?username=palabhi017&theme=react&border_radius=4.6&show_icons=true&count_private=true&hide_border=true&show_icons=true&bg_color=693fee&title_color=ffffff&text_color=fff" alt=""  />
+<img id="github-stats-card" style={{height:"250px",width:"33%"}} src="https://github-readme-stats.vercel.app/api?username=palabhi017&theme=react&border_radius=4.6&show_icons=true&count_private=true&hide_border=true&show_icons=true&bg_color=693fee&title_color=ffffff&text_color=fff" alt=""  />
 {/* <div align="center" > */}
  
-<img style={{height:"250px",width:"33%"}} src="https://streak-stats.demolab.com?user=palabhi017&theme=highcontrast&background=693fee"  alt=""/>
+<img id="github-streak-stats" style={{height:"250px",width:"33%"}} src="https://streak-stats.demolab.com?user=palabhi017&theme=highcontrast&background=693fee"  alt=""/>
 
 {/* </div>  */}
-  <img style={{height:"250px",width:"33%"}} src="https://github-readme-stats.vercel.app/api/top-langs/?username=palabhi017&theme=transparent&border_radius=4.6&hide_border=true&layout=compact&show_icons=true&bg_color=693fee&title_color=ffffff&text_color=fff" alt=""   />
+  <img id="github-top-langs" style={{height:"250px",width:"33%"}} src="https://github-readme-stats.vercel.app/api/top-langs/?username=palabhi017&theme=transparent&border_radius=4.6&hide_border=true&layout=compact&show_icons=true&bg_color=693fee&title_color=ffffff&text_color=fff" alt=""   />
 
  {/* </div>  */}
 </HStack >

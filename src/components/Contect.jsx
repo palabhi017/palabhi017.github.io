@@ -9,11 +9,11 @@ const Contect = () => {
     <Flex id="contect" direction={{base:"column",lg:'row'}} bgImage={Contectbg} bgSize="cover" mt="10px" h="auto" p={{base:"0px",lg:'30px'}} w="100%">
         <VStack w={{base:"90%",lg:"50%"}} h="40%"  margin={"auto"}>
         <Heading fontSize={"50px"} mt="10px" color="#693fee">Get In Touch</Heading>
-        <Text fontSize={"20px"} mt="10px" color="#2f1c6a">Phone :- +919993805253</Text>
+        <Text id="contact-phone" fontSize={"20px"} mt="10px" color="#2f1c6a">Phone :- +919993805253</Text>
         <HStack mt="10px" justify={"center"} gap="30px">
               <Link target={"_blank"} href="https://www.linkedin.com/in/abhishek-pal-14416323b/" w="10%" borderRadius={"5px"}><BsLinkedin color="#2f1c6a"  size="50px"/></Link>
                <Link  target={"_blank"} href="https://github.com/palabhi017"  w="14%" borderRadius={"5px"}>  <FaGithub color="#2f1c6a"  size="55px"/></Link>
-               <Link  target={"_blank"} href="palabhi017@gmail.com"  borderRadius={"5px"} w="12%"><BiMessageRoundedDetail color="#2f1c6a" size="60px"/></Link>
+               <Link id="contact-email"  target={"_blank"} href="palabhi017@gmail.com"  borderRadius={"5px"} w="12%"><BiMessageRoundedDetail color="#2f1c6a" size="60px"/></Link>
         </HStack>
         </VStack>
         <VStack w={{base:"100%",lg:"50%"}}>

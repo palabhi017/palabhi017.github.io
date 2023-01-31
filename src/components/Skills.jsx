@@ -5,7 +5,7 @@ export default function Skills(){
 
     return (
 <>
-    <Box id="Skills"  boxSizing="border-box" pb="30px" w={"98%"} m="auto" h={{sm:"auto",md:"auto",lg:"auto"}} mt={"10px"} borderRadius="10px" bgColor="#f5f5f7">
+    <Box id="skills"  boxSizing="border-box" pb="30px" w={"98%"} m="auto" h={{sm:"auto",md:"auto",lg:"auto"}} mt={"10px"} borderRadius="10px" bgColor="#f5f5f7">
     <Heading p="30px" color="#693fee"><TypeAnimation
       sequence={[
         2000,
