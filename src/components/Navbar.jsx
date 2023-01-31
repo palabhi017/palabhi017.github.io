@@ -28,7 +28,7 @@ export default function Navbar(){
             <Link id=".nav-link.about"  scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#about" >About</Link>
                <Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#skills" >Skills</Link>
                <Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#project" >Project</Link>
-               <Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#contect" >Contect</Link>
+               <Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#contact" >Contact</Link>
                <a id="resume-button-1" href="Abhishek_Pal_Resume.pdf"  download={"Abhishek_Pal_Resume"}><Text color="white" bgColor="#693fee" p="5px" borderRadius={"5px"}>Resume</Text></a> 
             </HStack>
             </Hide> 
