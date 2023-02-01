@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a8acb159.css",
-    "main.js": "/static/js/main.292ae8dd.js",
+    "main.js": "/static/js/main.e80b0f7b.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Dailyneeds.png": "/static/media/Dailyneeds.f8b684089b87df2070e6.png",
     "static/media/TimeAlways.png": "/static/media/TimeAlways.e200c15e36d2621dbd5d.png",
@@ -21,16 +21,17 @@
     "static/media/D4.png": "/static/media/D4.eca36fb05fc80a8ed5d6.png",
     "static/media/C4.png": "/static/media/C4.f75d3e45dd6e5ac92a08.png",
     "static/media/portlogo.png": "/static/media/portlogo.66d61f33b064e6f23832.png",
-    "static/media/Aboutbg.png": "/static/media/Aboutbg.7b48d1a6744b2a4b0c6f.png",
+    "static/media/Aboutbg.png": "/static/media/Aboutbg.f8a7df1f27f08aed53fd.png",
     "static/media/render.jpg": "/static/media/render.fff721539fbceec83b62.jpg",
+    "static/media/Contactsmbg.png": "/static/media/Contactsmbg.8a60d50ccc1febbf7ee5.png",
     "static/media/Contectbg.png": "/static/media/Contectbg.2ce577c3d70b047af5b3.png",
     "index.html": "/index.html",
     "main.a8acb159.css.map": "/static/css/main.a8acb159.css.map",
-    "main.292ae8dd.js.map": "/static/js/main.292ae8dd.js.map",
+    "main.e80b0f7b.js.map": "/static/js/main.e80b0f7b.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8acb159.css",
-    "static/js/main.292ae8dd.js"
+    "static/js/main.e80b0f7b.js"
   ]
 }
