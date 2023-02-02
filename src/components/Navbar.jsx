@@ -19,17 +19,17 @@ export default function Navbar(){
   const btnRef = React.useRef()
     return (
         <>
-        <HStack zIndex={1} pos="fixed" top="0px"  borderRadius={"10px"} w={"100%"} m="auto" boxSizing="border-box" bgColor={"#f5f5ff"} h="80px" justifyContent={"space-between"} p="10px 30px">
+        <HStack id="nav-menu" zIndex={1} pos="fixed" top="0px"  borderRadius={"10px"} w={"100%"} m="auto" boxSizing="border-box" bgColor={"#f5f5ff"} h="80px" justifyContent={"space-between"} p="10px 30px">
             <Box ml="30px">
             <Image w={"20%"} src={portlogo} alt='Dan Abramov' />
             </Box>
             <Hide below="800px">
-            <HStack id="nav-menu" justifyContent={"space-evenly"} font-family={"IBM Plex Sans', sans-serif"} fontWeight="900" w={"50%"} fontSize={"20px"} color="#693fee" >
-            <Link id=".nav-link.about"  scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#about" >About</Link>
-               <Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#skills" >Skills</Link>
-               <Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#project" >Project</Link>
-               <Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#contact" >Contact</Link>
-               <a id="resume-button-1" href="Abhishek_Pal_Resume.pdf"  download={"Abhishek_Pal_Resume"}><Text color="white" bgColor="#693fee" p="5px" borderRadius={"5px"}>Resume</Text></a> 
+            <HStack  justifyContent={"space-evenly"} font-family={"IBM Plex Sans', sans-serif"} fontWeight="900" w={"50%"} fontSize={"20px"} color="#693fee" >
+            <Link className="nav-link about"  scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#about" >About</Link>
+               <Link className="nav-link skills"  scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#skills" >Skills</Link>
+               <Link className="nav-link projects"  scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#project" >Project</Link>
+               <Link className="nav-link contact"  scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#contact" >Contact</Link>
+               <a  id="resume-link-1" href="Abhishek_Pal_Resume.pdf"  download={"Abhishek_Pal_Resume"}><Text id="nav-link resume" color="white" bgColor="#693fee" p="5px" borderRadius={"5px"}>Resume</Text></a> 
             </HStack>
             </Hide> 
             <Show breakpoint='(max-width: 800px)'> 
@@ -47,11 +47,11 @@ export default function Navbar(){
          
               <DrawerBody>
                <VStack fontSize={"30px"}>
-               <Text w="100%" textAlign={"center"} bgColor="#153d82" _hover={{bgColor:"#693fee"}} color="#fff" borderBottom={"2px solid #1b49be"}>About</Text>
-                <Text w="100%" textAlign={"center"} bgColor="#153d82" _hover={{bgColor:"#693fee"}} color="#fff" borderBottom={"2px solid #1b49be"}>Skills</Text>
-                <Text w="100%" textAlign={"center"} bgColor="#153d82" _hover={{bgColor:"#693fee"}} color="#fff" borderBottom={"2px solid #1b49be"}>Project</Text>
-                <Text w="100%" textAlign={"center"} bgColor="#153d82" _hover={{bgColor:"#693fee"}} color="#fff" borderBottom={"2px solid #1b49be"}>Contect</Text>
-                <Text w="100%" textAlign={"center"} bgColor="#153d82" _hover={{bgColor:"#693fee"}} color="#fff" borderBottom={"2px solid #1b49be"}>Resume</Text>
+               <Text className="nav-link home" w="100%" textAlign={"center"} bgColor="#f5f5f7" _hover={{bgColor:"#693fee",color:"#fff"}} color="#693fee" borderBottom={"2px solid #1b49be"}><Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#home" >About</Link></Text>
+               <Text w="100%" textAlign={"center"} bgColor="#f5f5f7" _hover={{bgColor:"#693fee",color:"#fff"}} color="#693fee" borderBottom={"2px solid #1b49be"}><Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#skills" >Skills</Link></Text>
+                <Text w="100%" textAlign={"center"} bgColor="#f5f5f7" _hover={{bgColor:"#693fee",color:"#fff"}} color="#693fee" borderBottom={"2px solid #1b49be"}><Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#project" >Project</Link></Text>
+                <Text w="100%" textAlign={"center"} bgColor="#f5f5f7" _hover={{bgColor:"#693fee",color:"#fff"}} color="#693fee" borderBottom={"2px solid #1b49be"}><Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#contact" >Contect</Link></Text>
+                <Text w="100%" textAlign={"center"} bgColor="#693fee" _hover={{bgColor:"#fff",color:"#693fee"}} color="#fff" borderBottom={"2px solid #1b49be"}>Resume</Text>
                </VStack>
               </DrawerBody>
             </DrawerContent>

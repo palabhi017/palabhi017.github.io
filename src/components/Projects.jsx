@@ -1,4 +1,4 @@
-import {Box,Heading,Text,HStack,VStack,Image,Show,Flex,Link} from "@chakra-ui/react"
+import {Box,Heading,Text,HStack,VStack,Show,Flex,Link} from "@chakra-ui/react"
 import { TypeAnimation } from 'react-type-animation';
 import Time from "../Images/TimeAlways.png"
 import T2 from "../Images/T2.png"
@@ -69,11 +69,11 @@ export default function Projects(){
     </Heading>
       <Show above="801px">
         <HStack id=".project-card" pb="40px" w="90%" m="auto" mt="50px">
-            <VStack gap={5}  w="50%" borderRight={"3px solid #4f3f7d"}>
-            <Heading color="#2f1c6a">DeskTime.com Clone</Heading>
-            <Text w="80%" fontSize={"20px"} color="#4f3f7d" textAlign={"left"}>DeskTime is a time tracking tool with additional features for workforce management. These features can help you build a successful team that consistently achieves its goals.</Text>
+            <VStack className="project-card" gap={5}  w="50%" borderRight={"3px solid #4f3f7d"}>
+            <Heading className="project-title" color="#2f1c6a">DeskTime.com Clone</Heading>
+            <Text className="project-description" w="80%" fontSize={"20px"} color="#4f3f7d" textAlign={"left"}>DeskTime is a time tracking tool with additional features for workforce management. These features can help you build a successful team that consistently achieves its goals.</Text>
             <Flex gap="10px">
-              <Box fontSize={"20px"}  fontWeight={"900"} color="#2f1c6a">TECHSTACK :-</Box>
+              <Box className="project-tech-stack" fontSize={"20px"}  fontWeight={"900"} color="#2f1c6a">TECHSTACK :-</Box>
               <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"} box-Shadow="rgba(0, 0, 0, 0.35) 0px 5px 15px" fontWeight={"bold"} color="#fff">HTML</Box>
               <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"}  fontWeight={"bold"} color="#fff">CSS</Box>
              <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"}  fontWeight={"bold"} color="#fff">JavaScript</Box>
@@ -84,16 +84,16 @@ export default function Projects(){
             </Box>
             
             <Flex gap="20px">
-            <Link target={"_blank"} href="https://github.com/palabhi017/terrific-language-9890"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><FaGithub color="#2f1c6a"/>GitHub</Flex></Link>
-            <Link target={"_blank"} href="https://time-always.netlify.app/"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><GrDeploy color="#2f1c6a" size="20px"/>Deploy</Flex></Link>
+            <Link className="project-github-link" target={"_blank"} href="https://github.com/palabhi017/terrific-language-9890"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><FaGithub color="#2f1c6a"/>GitHub</Flex></Link>
+            <Link className="project-deployed-link" target={"_blank"} href="https://time-always.netlify.app/"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><GrDeploy color="#2f1c6a" size="20px"/>Deploy</Flex></Link>
             </Flex>
             
             </VStack>
-            <VStack gap={5}  w="50%" >
-            <Heading color="#2f1c6a">Chargebee.com Clone</Heading>
-            <Text w="80%" fontSize={"20px"} color="#4f3f7d" textAlign={"left"}>Chargebee is the subscription billing and revenue management platform that lets you solve for your today, and scale for your tomorrow.</Text>
+            <VStack className="project-card" gap={5}  w="50%" >
+            <Heading className="project-title" color="#2f1c6a">Chargebee.com Clone</Heading>
+            <Text className="project-description" w="80%" fontSize={"20px"} color="#4f3f7d" textAlign={"left"}>Chargebee is the subscription billing and revenue management platform that lets you solve for your today, and scale for your tomorrow.</Text>
             <Flex gap="10px">
-              <Box fontSize={"20px"}  fontWeight={"900"} color="#2f1c6a">TECHSTACK :-</Box>
+              <Box className="project-tech-stack" fontSize={"20px"}  fontWeight={"900"} color="#2f1c6a">TECHSTACK :-</Box>
               <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"} box-Shadow="rgba(0, 0, 0, 0.35) 0px 5px 15px" fontWeight={"bold"} color="#fff">HTML</Box>
               <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"}  fontWeight={"bold"} color="#fff">CSS</Box>
              <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"}  fontWeight={"bold"} color="#fff">JavaScript</Box>
@@ -102,17 +102,17 @@ export default function Projects(){
             <SwiftSlider height={380} enableNextAndPrev={false} interval={2000} showDots={false} data={data2}/>
             </Box>
             <Flex gap="20px">
-            <Link target={"_blank"} href="https://github.com/palabhi017/loving-friends-4004"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><FaGithub color="#2f1c6a"/>GitHub</Flex></Link>
-            <Link target={"_blank"} href="https://fluffy-jelly-ba9f7f.netlify.app/"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><GrDeploy color="#2f1c6a" size="20px"/>Deploy</Flex></Link>
+            <Link className="project-github-link" target={"_blank"} href="https://github.com/palabhi017/loving-friends-4004"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><FaGithub color="#2f1c6a"/>GitHub</Flex></Link>
+            <Link className="project-deployed-link" target={"_blank"} href="https://fluffy-jelly-ba9f7f.netlify.app/"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><GrDeploy color="#2f1c6a" size="20px"/>Deploy</Flex></Link>
             </Flex>
             </VStack>
         </HStack>
         <HStack pb="40px" w="90%" m="auto" mt="50px">
-            <VStack gap={5}  w="50%" borderRight={"3px solid #4f3f7d"}>
-            <Heading color="#2f1c6a">Airtable.com Clone</Heading>
-            <Text w="80%" fontSize={"20px"} color="#4f3f7d" textAlign={"left"}>A task management platform that allows users to organize and prioritize their to-do list. A comprehensive solution for tracking progress and meeting deadlines.</Text>
+            <VStack className="project-card" gap={5}  w="50%" borderRight={"3px solid #4f3f7d"}>
+            <Heading className="project-title" color="#2f1c6a">Airtable.com Clone</Heading>
+            <Text className="project-description" w="80%" fontSize={"20px"} color="#4f3f7d" textAlign={"left"}>A task management platform that allows users to organize and prioritize their to-do list. A comprehensive solution for tracking progress and meeting deadlines.</Text>
             <Flex gap="10px">
-              <Box fontSize={"20px"}  fontWeight={"900"} color="#2f1c6a">TECHSTACK :-</Box>
+              <Box className="project-tech-stack" fontSize={"20px"}  fontWeight={"900"} color="#2f1c6a">TECHSTACK :-</Box>
               <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"} box-Shadow="rgba(0, 0, 0, 0.35) 0px 5px 15px" fontWeight={"bold"} color="#fff">React</Box>
               <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"}  fontWeight={"bold"} color="#fff">Chakra Ui</Box>
              <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"}  fontWeight={"bold"} color="#fff">Render</Box>
@@ -121,15 +121,15 @@ export default function Projects(){
             <SwiftSlider height={380} enableNextAndPrev={false} interval={2000} showDots={false} data={data3}/>
             </Box>
             <Flex gap="20px">
-            <Link target={"_blank"} href="https://github.com/palabhi017/bewildered-discussion-8431/tree/main/timetable"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><FaGithub color="#2f1c6a"/>GitHub</Flex></Link>
-            <Link target={"_blank"} href="https://time-blue.vercel.app/"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><GrDeploy color="#2f1c6a" size="20px"/>Deploy</Flex></Link>
+            <Link className="project-github-link" target={"_blank"} href="https://github.com/palabhi017/bewildered-discussion-8431/tree/main/timetable"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><FaGithub color="#2f1c6a"/>GitHub</Flex></Link>
+            <Link className="project-deployed-link" target={"_blank"} href="https://time-blue.vercel.app/"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><GrDeploy color="#2f1c6a" size="20px"/>Deploy</Flex></Link>
             </Flex>
             </VStack>
-            <VStack gap={5}  w="50%" >
-            <Heading color="#2f1c6a">DailyObjects.com Clone</Heading>
-            <Text w="80%" fontSize={"20px"} color="#4f3f7d" textAlign={"left"}>DailyObjects is a design-obsessed lifestyle accessories brand committed to making your everyday carry. You can look forward to a carefully-crafted range of products. </Text>
+            <VStack className="project-card" gap={5}  w="50%" >
+            <Heading className="project-title" color="#2f1c6a">DailyObjects.com Clone</Heading>
+            <Text className="project-description" w="80%" fontSize={"20px"} color="#4f3f7d" textAlign={"left"}>DailyObjects is a design-obsessed lifestyle accessories brand committed to making your everyday carry. You can look forward to a carefully-crafted range of products. </Text>
             <Flex gap="10px" >
-              <Box fontSize={"20px"}  fontWeight={"900"} color="#2f1c6a">TECHSTACK :-</Box>
+              <Box className="project-tech-stack" fontSize={"20px"}  fontWeight={"900"} color="#2f1c6a">TECHSTACK :-</Box>
               <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"} box-Shadow="rgba(0, 0, 0, 0.35) 0px 5px 15px" fontWeight={"bold"} color="#fff">React</Box>
               <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"}  fontWeight={"bold"} color="#fff">Typescript</Box>
               <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"}  fontWeight={"bold"} color="#fff">Redux</Box>
@@ -139,8 +139,8 @@ export default function Projects(){
             <SwiftSlider height={380} enableNextAndPrev={false} interval={2000} showDots={false} data={data4}/>
             </Box>
             <Flex gap="20px">
-            <Link target={"_blank"} href="https://github.com/HANUMAT-SHARAN/bright-noise-2667/tree/master/cw-rct201"><Flex gap="5px" alignItems={"center"} color="#693fee"  fontSize={"25px"}><FaGithub color="#2f1c6a"/>GitHub</Flex></Link>
-            <Link target={"_blank"} href="https://gentle-kringle-071b60.netlify.app/"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><GrDeploy color="#2f1c6a" size="20px"/>Deploy</Flex></Link>
+            <Link className="project-github-link" target={"_blank"} href="https://github.com/HANUMAT-SHARAN/bright-noise-2667/tree/master/cw-rct201"><Flex gap="5px" alignItems={"center"} color="#693fee"  fontSize={"25px"}><FaGithub color="#2f1c6a"/>GitHub</Flex></Link>
+            <Link className="project-deployed-link" target={"_blank"} href="https://gentle-kringle-071b60.netlify.app/"><Flex gap="5px" alignItems={"center"} color="#693fee" fontSize={"25px"}><GrDeploy color="#2f1c6a" size="20px"/>Deploy</Flex></Link>
             </Flex>
             </VStack>
         </HStack>
