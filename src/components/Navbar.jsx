@@ -25,11 +25,11 @@ export default function Navbar(){
             </Box>
             <Hide below="800px">
             <HStack  justifyContent={"space-evenly"} font-family={"IBM Plex Sans', sans-serif"} fontWeight="900" w={"50%"} fontSize={"20px"} color="#693fee" >
-            <Link className="nav-link about"  scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#about" >About</Link>
+            <Link className="nav-link.home"  scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#about" >About</Link>
                <Link className="nav-link skills"  scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#skills" >Skills</Link>
                <Link className="nav-link projects"  scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#project" >Project</Link>
                <Link className="nav-link contact"  scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#contact" >Contact</Link>
-               <a  id="resume-link-1" href="Abhishek_Pal_Resume.pdf"  download={"Abhishek_Pal_Resume"}><Text id="nav-link resume" color="white" bgColor="#693fee" p="5px" borderRadius={"5px"}>Resume</Text></a> 
+               <a  id="resume-link-1" href="Abhishek_Pal_Resume.pdf"  download={"Abhishek_Pal_Resume"}><Text id="nav-link resume"  color="white" bgColor="#693fee" p="5px" borderRadius={"5px"}>Resume</Text></a> 
             </HStack>
             </Hide> 
             <Show breakpoint='(max-width: 800px)'> 
@@ -47,11 +47,11 @@ export default function Navbar(){
          
               <DrawerBody>
                <VStack fontSize={"30px"}>
-               <Text className="nav-link home" w="100%" textAlign={"center"} bgColor="#f5f5f7" _hover={{bgColor:"#693fee",color:"#fff"}} color="#693fee" borderBottom={"2px solid #1b49be"}><Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#home" >About</Link></Text>
+               <Text  w="100%"  className="nav-link skills" textAlign={"center"} bgColor="#f5f5f7" _hover={{bgColor:"#693fee",color:"#fff"}} color="#693fee" borderBottom={"2px solid #1b49be"}><Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#home" >About</Link></Text>
                <Text w="100%" textAlign={"center"} bgColor="#f5f5f7" _hover={{bgColor:"#693fee",color:"#fff"}} color="#693fee" borderBottom={"2px solid #1b49be"}><Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#skills" >Skills</Link></Text>
                 <Text w="100%" textAlign={"center"} bgColor="#f5f5f7" _hover={{bgColor:"#693fee",color:"#fff"}} color="#693fee" borderBottom={"2px solid #1b49be"}><Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#project" >Project</Link></Text>
                 <Text w="100%" textAlign={"center"} bgColor="#f5f5f7" _hover={{bgColor:"#693fee",color:"#fff"}} color="#693fee" borderBottom={"2px solid #1b49be"}><Link   scroll={el => el.scrollIntoView({ behavior: 'smooth'})} to="#contact" >Contect</Link></Text>
-                <Text w="100%" textAlign={"center"} bgColor="#693fee" _hover={{bgColor:"#fff",color:"#693fee"}} color="#fff" borderBottom={"2px solid #1b49be"}>Resume</Text>
+                <Text w="100%" textAlign={"center"} bgColor="#693fee" _hover={{bgColor:"#fff",color:"#693fee"}} color="#fff" borderBottom={"2px solid #1b49be"} id="resume-button-1">Resume</Text>
                </VStack>
               </DrawerBody>
             </DrawerContent>

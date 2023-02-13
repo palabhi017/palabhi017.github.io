@@ -11,8 +11,8 @@ export default function About(){
     return (
         <>
         <Show above="800px" >
-            <Box id="about" boxSizing="border-box"  w={"100%"}  m="auto" bgImage={Aboutbg} bgSize="100% 100%" h={"auto"} mt={"90px"} borderRadius="10px">
-            <Heading className="#about.about.section" p="30px" color="#693fee" fontSize={"40px"}>About Me</Heading>
+            <Box id="home" boxSizing="border-box"  w={"100%"}  m="auto" bgImage={Aboutbg} bgSize="100% 100%" h={"auto"} mt={"90px"} borderRadius="10px">
+            <Heading  p="30px" color="#693fee" fontSize={"40px"}>About Me</Heading>
             <HStack p="40px"  justifyContent={"space-evenly"}  w={"98%"} m="auto" h={"auto"}  >
             
             <Box  w="25%" borderRadius={"10px"} border="2px solid #693fee" p="5px" boxShadow= "rgba(0, 0, 0, 0.24) 0px 3px 8px" >
@@ -40,8 +40,8 @@ export default function About(){
 
         </Show>
         <Show below="800px">
-        <VStack id="home" className="about section" justifyContent={"space-evenly"} boxSizing="border-box" bgColor="#f5f5f7" w={"98%"} m="auto" pb="10px" h={"auto"} mt={"90px"} borderRadius="10px" >
-        <Heading color="#693fee" p="20px" fontSize={"30px"}>About Me</Heading>
+        <VStack id="about" className="about section" justifyContent={"space-evenly"} boxSizing="border-box" bgColor="#f5f5f7" w={"98%"} m="auto" pb="10px" h={"auto"} mt={"90px"} borderRadius="10px" >
+        <Heading id="about.about.section" color="#693fee" p="20px" fontSize={"30px"}>About Me</Heading>
             <Box mt="20px" border="2px solid #693fee" borderRadius={"5px"} w="55%" boxShadow= "rgba(0, 0, 0, 0.24) 0px 3px 8px" >
             <Image w={"90%"} m="auto" borderRadius={"10px"}  src={Profilepic}  />
             </Box>

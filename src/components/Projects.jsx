@@ -79,7 +79,7 @@ export default function Projects(){
              <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"}  fontWeight={"bold"} color="#fff">JavaScript</Box>
             </Flex>
            
-            <Box zIndex={2} w="80%" h="380px"  boxShadow= "rgba(0, 0, 0, 0.80) 0px 3px 8px" borderRadius={"5px"}> 
+            <Box zIndex={2} w="80%" h="380px" className="img"  boxShadow= "rgba(0, 0, 0, 0.80) 0px 3px 8px" borderRadius={"5px"}> 
             <SwiftSlider height={380} enableNextAndPrev={false} interval={2000} showDots={false} data={data}/>
             </Box>
             
@@ -98,7 +98,7 @@ export default function Projects(){
               <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"}  fontWeight={"bold"} color="#fff">CSS</Box>
              <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"}  fontWeight={"bold"} color="#fff">JavaScript</Box>
             </Flex>
-            <Box zIndex={2} w="80%" h="380px"  boxShadow= "rgba(0, 0, 0, 0.80) 0px 3px 8px" borderRadius={"5px"}> 
+            <Box zIndex={2} w="80%" h="380px" className="img"  boxShadow= "rgba(0, 0, 0, 0.80) 0px 3px 8px" borderRadius={"5px"}> 
             <SwiftSlider height={380} enableNextAndPrev={false} interval={2000} showDots={false} data={data2}/>
             </Box>
             <Flex gap="20px">
@@ -117,7 +117,7 @@ export default function Projects(){
               <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"}  fontWeight={"bold"} color="#fff">Chakra Ui</Box>
              <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"}  fontWeight={"bold"} color="#fff">Render</Box>
             </Flex>
-            <Box zIndex={2} w="80%" h="380px"  boxShadow= "rgba(0, 0, 0, 0.80) 0px 3px 8px" borderRadius={"5px"}> 
+            <Box zIndex={2} w="80%" h="380px" className="img"   boxShadow= "rgba(0, 0, 0, 0.80) 0px 3px 8px" borderRadius={"5px"}> 
             <SwiftSlider height={380} enableNextAndPrev={false} interval={2000} showDots={false} data={data3}/>
             </Box>
             <Flex gap="20px">
@@ -135,7 +135,7 @@ export default function Projects(){
               <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"}  fontWeight={"bold"} color="#fff">Redux</Box>
              <Box bgColor="#2f1c6a" borderRadius={"5px"} p="5px" fontSize={"15px"}  fontWeight={"bold"} color="#fff">Chakra ui</Box>
             </Flex>
-            <Box zIndex={2} w="80%" h="380px"  boxShadow= "rgba(0, 0, 0, 0.80) 0px 3px 8px" borderRadius={"5px"}> 
+            <Box zIndex={2} w="80%" h="380px" className="img"  boxShadow= "rgba(0, 0, 0, 0.80) 0px 3px 8px" borderRadius={"5px"}> 
             <SwiftSlider height={380} enableNextAndPrev={false} interval={2000} showDots={false} data={data4}/>
             </Box>
             <Flex gap="20px">

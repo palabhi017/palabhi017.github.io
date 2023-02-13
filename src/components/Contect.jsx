@@ -7,7 +7,7 @@ import Contactsmbg from "../Images/Contactsmbg.png"
 import {Heading,Text,HStack,VStack,Button,Input,Stack,Box,Link,Flex, Textarea} from "@chakra-ui/react"
 const Contect = () => {
   return (
-    <Flex id="contact" direction={{base:"column",lg:'row'}} bgImage={{base:Contactsmbg,lg:Contactbg,sm:Contactsmbg}} bgSize="100% 100%" mt="10px" h="auto" p={{base:"0px",lg:'30px'}} w="100%">
+    <Flex id="contact" className="nav-link contact" direction={{base:"column",lg:'row'}} bgImage={{base:Contactsmbg,lg:Contactbg,sm:Contactsmbg}} bgSize="100% 100%" mt="10px" h="auto" p={{base:"0px",lg:'30px'}} w="100%">
         <VStack w={{base:"90%",lg:"50%"}} h="40%"  margin={"auto"}>
         <Heading className='skills-card-name' fontSize={{lg:"50px",base:"35px"}} mt="10px" color="#693fee">Get In Touch</Heading>
         <Text  id="contact-phone" fontSize={"20px"} mt="10px" color="#2f1c6a">Phone :- +919993805253</Text>
