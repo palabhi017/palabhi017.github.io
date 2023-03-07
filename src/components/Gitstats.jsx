@@ -11,13 +11,13 @@ const Gitstats = () => {
 <HStack  h={"300px"}  m="auto" width={"98%"} justifyContent={"space-evenly"} alignItems="center">
  {/* <div align="center" style={{display:"flex"}}> */}
 
-<img id="github-stats-card" style={{height:"250px",width:"30%"}} src="https://github-readme-stats.vercel.app/api?username=palabhi017&theme=react&border_radius=4.6&show_icons=true&count_private=true&hide_border=true&show_icons=true&bg_color=153d82&title_color=ffffff&text_color=fff" alt=""  />
+<img id="github-stats-card" style={{width:"30%"}} src="https://github-readme-stats.vercel.app/api?username=palabhi017&theme=react&border_radius=4.6&show_icons=true&count_private=true&hide_border=true&show_icons=true&bg_color=153d82&title_color=ffffff&text_color=fff" alt=""  />
 {/* <div align="center" > */}
  
-<img id="github-streak-stats" style={{height:"250px",width:"33%"}} src="https://github-readme-streak-stats.herokuapp.com?user=palabhi017&theme=react&hide_border=true&border_radius=4.6&background=153d82&color=ffffff&text_color=fff"  alt=""/>
+<img id="github-streak-stats" style={{width:"33%"}} src="https://github-readme-streak-stats.herokuapp.com?user=palabhi017&theme=react&hide_border=true&border_radius=4.6&background=153d82&color=ffffff&text_color=fff"  alt=""/>
 
 {/* </div>  */}
-  <img id="github-top-langs" style={{height:"250px",width:"33%"}} src="https://github-readme-stats.vercel.app/api/top-langs/?username=palabhi017&theme=transparent&border_radius=4.6&hide_border=true&layout=compact&show_icons=true&bg_color=153d82&title_color=ffffff&text_color=fff" alt=""   />
+  <img id="github-top-langs" style={{width:"30%"}} src="https://github-readme-stats.vercel.app/api/top-langs/?username=palabhi017&theme=transparent&border_radius=4.6&hide_border=true&layout=compact&show_icons=true&bg_color=153d82&title_color=ffffff&text_color=fff" alt=""   />
 
  {/* </div>  */}
 </HStack >

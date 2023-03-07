@@ -1,4 +1,4 @@
-import {Box,Image,Grid,Show,Heading} from "@chakra-ui/react"
+import {Box,Image,Grid,Show,Heading,Text} from "@chakra-ui/react"
 import Render from "../Images/render.jpg"
 import { TypeAnimation } from 'react-type-animation';
 export default function Skills(){
@@ -28,32 +28,41 @@ export default function Skills(){
         <Box >
         <Grid templateColumns='repeat(5, 20%)' templateRows='repeat(1, auto)' m="auto" marginTop="30px" w="100%" gap={4}>
         <Box className="skills-card" w='50%'  borderRadius={"30px"}  bg='white' boxShadow= "rgba(0, 0, 0, 0.24) 0px 3px 8px">
+        <Text className={"skills-card-name"}></Text>
             <Image className="skills-card-img" m="auto" p="5% 0%" w='60%' src="https://ugross.gallerycdn.vsassets.io/extensions/ugross/vscode-react-snippets/1.3.0/1519481679046/Microsoft.VisualStudio.Services.Icons.Default"/>
         </Box>
         <Box className="skills-card" w='50%' borderRadius={"30px"}  bg='white' boxShadow= "rgba(0, 0, 0, 0.24) 0px 3px 8px">
+        <Text className={"skills-card-name"}></Text>
             <Image className="skills-card-img" m="auto" p="5% 0%" w='60%' src="https://seeklogo.com/images/R/redux-logo-9CA6836C12-seeklogo.com.png"/>
         </Box>
         <Box className="skills-card" w='50%' borderRadius={"30px"}  bg='white' boxShadow= "rgba(0, 0, 0, 0.24) 0px 3px 8px">
+        <Text className={"skills-card-name"}></Text>
             <Image className="skills-card-img" m="auto" p="8% 0%" w='50%' src="https://p1.hiclipart.com/preview/951/574/485/react-logo-javascript-redux-vuejs-angular-angularjs-expressjs-front-and-back-ends-png-clipart.jpg"/>
         </Box>
         <Box className="skills-card" w='50%' borderRadius={"30px"}  bg='white' boxShadow= "rgba(0, 0, 0, 0.24) 0px 3px 8px">
+        <Text className={"skills-card-name"}></Text>
             <Image className="skills-card-img" m="auto"p="8% 0%" w='50%' src="https://logos-download.com/wp-content/uploads/2017/07/HTML5_badge.png"/>
         </Box>
         <Box className="skills-card" w='50%' borderRadius={"30px"}  bg='white' boxShadow= "rgba(0, 0, 0, 0.24) 0px 3px 8px">
+        <Text className={"skills-card-name"}></Text>
             <Image className="skills-card-img" m="auto" mt="10%" w='50%' src="https://th.bing.com/th/id/OIP.NccvSu6Gut1HXGwUTBKYKgHaH3?pid=ImgDet&rs=1"/>
         </Box>
         </Grid>
         <Grid templateColumns='repeat(4, 20%)' templateRows='repeat(1, auto)' m="auto" marginTop="30px" w="100%" justifyContent={"space-evenly"}>
         <Box className="skills-card" w='50%' borderRadius={"30px"}  bg='white' boxShadow= "rgba(0, 0, 0, 0.24) 0px 3px 8px">
+        <Text className={"skills-card-name"}></Text>
             <Image className="skills-card-img" m="auto" mt="10%" w='65%' src="https://th.bing.com/th/id/R.8075e9fb9d9e4d38ab81dae248c6dbd0?rik=m8wEkmr8R1U1gA&riu=http%3a%2f%2fpnbmobile.com%2fimages%2ftypescript_logo.png&ehk=wde0lVRVQLeiYmCgdeE%2bTbW2qlCyP7smtUsY5bfYKwI%3d&risl=&pid=ImgRaw&r=0"/>
         </Box>
         <Box w='50%' borderRadius={"30px"}  bg='white' boxShadow= "rgba(0, 0, 0, 0.24) 0px 3px 8px">
+        <Text className={"skills-card-name"}></Text>
             <Image className="skills-card-img" m="auto" mt="10%" w='70%' src="https://www.logolynx.com/images/logolynx/7f/7fb976a537620fed310872d533cd161c.png"/>
         </Box>
         <Box w='50%' borderRadius={"30px"}  bg='white' boxShadow= "rgba(0, 0, 0, 0.24) 0px 3px 8px">
+        <Text className={"skills-card-name"}></Text>
             <Image className="skills-card-img" m="auto" mt="10%" w='60%' src="https://gocode.colorado.gov/wp-content/uploads/2020/11/MongoDB-logo-150x150.gif"/>
         </Box>
         <Box w='50%' borderRadius={"30px"}  bg='white' boxShadow= "rgba(0, 0, 0, 0.24) 0px 3px 8px">
+            <Text className={"skills-card-name"}></Text>
             <Image className="skills-card-img" m="auto" mt="10%" w='60%' src="https://hackersandslackers-cdn.storage.googleapis.com/2020/05/express.png"/>
         </Box>
         </Grid>
