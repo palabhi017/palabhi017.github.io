@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a8acb159.css",
-    "main.js": "/static/js/main.6b57d55c.js",
+    "main.js": "/static/js/main.354dcb96.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Dailyneeds.png": "/static/media/Dailyneeds.f8b684089b87df2070e6.png",
     "static/media/TimeAlways.png": "/static/media/TimeAlways.e200c15e36d2621dbd5d.png",
@@ -13,7 +13,7 @@
     "static/media/C2.png": "/static/media/C2.973ad2585b8088a6cc8f.png",
     "static/media/D3.png": "/static/media/D3.785a65da5c7ec36594d4.png",
     "static/media/T4.png": "/static/media/T4.a83cd46f08f3670594f1.png",
-    "static/media/webdesign.png": "/static/media/webdesign.378055df2938a5cc30ec.png",
+    "static/media/favicon.png": "/static/media/favicon.378055df2938a5cc30ec.png",
     "static/media/portprofile.jpg": "/static/media/portprofile.1eb31f0db031de66efe9.jpg",
     "static/media/C3.png": "/static/media/C3.3f96425177f3c9a35286.png",
     "static/media/A4.png": "/static/media/A4.89b92a3a1f459f34c2d9.png",
@@ -29,11 +29,11 @@
     "static/media/Contectbg.png": "/static/media/Contectbg.2ce577c3d70b047af5b3.png",
     "index.html": "/index.html",
     "main.a8acb159.css.map": "/static/css/main.a8acb159.css.map",
-    "main.6b57d55c.js.map": "/static/js/main.6b57d55c.js.map",
+    "main.354dcb96.js.map": "/static/js/main.354dcb96.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8acb159.css",
-    "static/js/main.6b57d55c.js"
+    "static/js/main.354dcb96.js"
   ]
 }
