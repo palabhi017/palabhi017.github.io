@@ -1,7 +1,7 @@
+import React from 'react'
 import { Box,Heading,Show,HStack } from '@chakra-ui/react'
 import GitHubCalendar from 'react-github-calendar';
 
-import React from 'react'
 // import { Box } from '@chakra-ui/react'
 const Gitstats = () => {
   return (

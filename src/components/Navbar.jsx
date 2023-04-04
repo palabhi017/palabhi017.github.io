@@ -24,21 +24,21 @@ export default function Navbar() {
           <Image w={"20%"} src={portlogo} alt='Dan Abramov' />
         </Box>
         <Hide below="900px">
-          <HStack id="nav-menu" justifyContent={"space-evenly"} fontFamily={"Sans-serif"} fontWeight="bold" w={"50%"} fontSize={"20px"} color="#693fee" >
+          <HStack id="nav-menu" justifyContent={"space-between"} fontFamily={"Sans-serif"} fontWeight="bold" w={"50%"} fontSize={"20px"} color="#693fee" >
             <Link className="nav-link home" scroll={el => el.scrollIntoView({ behavior: 'smooth' })} to="#home" >Home</Link>
 
             <Link className="nav-link about" scroll={el => el.scrollIntoView({ behavior: 'smooth' })} to="#about" >About</Link>
             <Link className="nav-link skills" scroll={el => el.scrollIntoView({ behavior: 'smooth' })} to="#skills" >Skills</Link>
             <Link className="nav-link projects" scroll={el => el.scrollIntoView({ behavior: 'smooth' })} to="#projects" >Project</Link>
             <Link className="nav-link contact" scroll={el => el.scrollIntoView({ behavior: 'smooth' })} to="#contact" >Contact</Link>
-            <a id="resume-link-1" className="nav-link resume" target="_blank" href="Abhishek_Pal_Resume.pdf" download={"Abhishek_Pal_Resume"}><Text color="white" id="resume-button-1" bgColor="#693fee" p="5px" borderRadius={"5px"}>Resume</Text></a>
+            <a id="resume-link-1" className="nav-link resume" target="_blank" href="Abhishek_Pal_Resume.pdf" onClick={()=>{window.open("https://drive.google.com/file/d/16ulnv0nv83urH_XCtFO45BqtRk2lSOEi/view?usp=share_link")}} download={"Abhishek_Pal_Resume"}><Text color="white" id="resume-button-1" bgColor="#693fee" p="5px" borderRadius={"5px"}>Resume</Text></a>
 
           </HStack>
 
         </Hide>
         <Show breakpoint='(max-width: 900px)'>
           <Stack>
-            <HamburgerIcon color={"#2f1c6a"} boxSize={"40px"} ref={btnRef} colorScheme='teal' onClick={onOpen} />
+            <HamburgerIcon color={"#2f1c6a"} boxSize={"40px"} ref={btnRef}  onClick={onOpen} />
 
 
           </Stack>

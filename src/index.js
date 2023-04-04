@@ -8,13 +8,13 @@ import { IconContext } from "react-icons";
 import { BrowserRouter } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <BrowserRouter>
-    <IconContext.Provider value={{ color: "Black", className: "global-class-name" }}>
  <ChakraProvider>
+    <IconContext.Provider value={{ color: "Black", className: "global-class-name" }}>
+   <BrowserRouter>
     <App />
-    </ChakraProvider>
-    </IconContext.Provider>
     </BrowserRouter>
+    </IconContext.Provider>
+ </ChakraProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

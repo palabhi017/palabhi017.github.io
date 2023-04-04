@@ -14,12 +14,12 @@ export default function About(){
         <Show above="900px" >
             <Box id="home"  className="about section" boxSizing="border-box"  w={"100%"}  m="auto" bgImage={Homebg} bgSize="100% 100%" h={"auto"} mt={"90px"} borderRadius="10px">
             <Heading  p="30px" color="#693fee" fontSize={"40px"}>Home</Heading>
-            <HStack p="40px"  justifyContent={"space-evenly"}  w={"98%"} m="auto" h={"auto"}  >
+            <HStack p="50px 40px"  justifyContent={"space-evenly"}  w={"98%"} m="auto" h={"auto"}  >
             
-            <Box  w="25%" borderRadius={"10px"} border="2px solid #693fee" p="5px" boxShadow= "rgba(0, 0, 0, 0.24) 0px 3px 8px" >
+            <Box  w="25%" borderRadius={"10px"} border="2px solid #693fee" p="5px"  boxShadow= "rgba(0, 0, 0, 0.24) 0px 3px 8px" >
             <Image className="home-img" w={"100%"}  m="auto" borderRadius={"10px"}  src={Profilepic} alt='' />
             </Box>
-            <Box w="40%">
+            <Box w="50%">
             <VStack>
             <Box   alignItems={"top"} >
                 <Text color="#693fee" fontSize={"30px"} fontWeight="600" fontFamily="cursive"   textAlign={"left"}>Hello..</Text>

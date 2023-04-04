@@ -28,7 +28,7 @@ export default function About(){
               <Link   target={"_blank"} href="https://www.linkedin.com/in/abhishek-pal-14416323b/" w="10%" borderRadius={"5px"}><BsLinkedin color="#2f1c6a"  size="30px"/></Link>
                <Link    target={"_blank"} href="https://github.com/palabhi017"  w="14%" borderRadius={"5px"}>  <FaGithub color="#2f1c6a"  size="35px"/></Link>
                <Link  target={"_blank"} href="palabhi017@gmail.com"  borderRadius={"5px"} w="12%"><BiMessageRoundedDetail color="#2f1c6a" size="40px"/></Link>
-               <Link id="resume-link-2" href="Abhishek_Pal_Resume.pdf"  target={"_blank"}  download={"Abhishek_Pal_Resume"}><Text id="resume-button-2" color="white" bgColor="#2f1c6a" p="5px 10px" fontSize={"20px"} borderRadius={"5px"}>Resume</Text></Link> 
+               <Link id="resume-link-2" href="Abhishek_Pal_Resume.pdf" onClick={()=>{window.open("https://drive.google.com/file/d/16ulnv0nv83urH_XCtFO45BqtRk2lSOEi/view?usp=share_link")}}  target={"_blank"}  download={"Abhishek_Pal_Resume"}><Text id="resume-button-2" color="white" bgColor="#2f1c6a" p="5px 10px" fontSize={"20px"} borderRadius={"5px"}>Resume</Text></Link> 
         </HStack>
             </VStack>
             </Box>
