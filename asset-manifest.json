@@ -1,15 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.a8acb159.css",
-    "main.js": "/static/js/main.de33dafe.js",
+    "main.js": "/static/js/main.2f6c1b2c.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Dailyneeds.png": "/static/media/Dailyneeds.f8b684089b87df2070e6.png",
     "static/media/TimeAlways.png": "/static/media/TimeAlways.e200c15e36d2621dbd5d.png",
     "static/media/Airtable.png": "/static/media/Airtable.65f0f8a84e261eb7475e.png",
+    "static/media/M1.png": "/static/media/M1.24d3411f19b52d88733f.png",
     "static/media/chargebee.png": "/static/media/chargebee.57f3d63378f8e561a809.png",
+    "static/media/K1.png": "/static/media/K1.a482b6f727e3db2ea7bb.png",
     "static/media/D2.png": "/static/media/D2.03800ae905586dbc109b.png",
+    "static/media/K2.png": "/static/media/K2.8a070378fecf812cf441.png",
+    "static/media/M2.png": "/static/media/M2.3bf55422081391d39543.png",
     "static/media/A2.png": "/static/media/A2.8c697dc8885d2eb4e020.png",
     "static/media/T2.png": "/static/media/T2.ace088c84cee1b927599.png",
+    "static/media/K3.png": "/static/media/K3.1cc8a8782184e534ad29.png",
     "static/media/C2.png": "/static/media/C2.973ad2585b8088a6cc8f.png",
     "static/media/D3.png": "/static/media/D3.785a65da5c7ec36594d4.png",
     "static/media/T4.png": "/static/media/T4.a83cd46f08f3670594f1.png",
@@ -17,11 +22,14 @@
     "static/media/portprofile.jpg": "/static/media/portprofile.1eb31f0db031de66efe9.jpg",
     "static/media/C3.png": "/static/media/C3.3f96425177f3c9a35286.png",
     "static/media/A4.png": "/static/media/A4.89b92a3a1f459f34c2d9.png",
+    "static/media/M3.png": "/static/media/M3.e098382a03c0c93cbc45.png",
     "static/media/T3.png": "/static/media/T3.159d7bc086973526cf76.png",
     "static/media/A3.png": "/static/media/A3.e6c23300bc29a2338d37.png",
     "static/media/D4.png": "/static/media/D4.eca36fb05fc80a8ed5d6.png",
+    "static/media/M4.png": "/static/media/M4.225d3091d45292d1f4f8.png",
     "static/media/C4.png": "/static/media/C4.f75d3e45dd6e5ac92a08.png",
     "static/media/Aboutbg.png": "/static/media/Aboutbg.515ff065020e2ef750b1.png",
+    "static/media/K4.png": "/static/media/K4.8b59adbf5a1090302e03.png",
     "static/media/portlogo.png": "/static/media/portlogo.66d61f33b064e6f23832.png",
     "static/media/Homebg.png": "/static/media/Homebg.18aec6db57ba7c36d8c3.png",
     "static/media/render.jpg": "/static/media/render.fff721539fbceec83b62.jpg",
@@ -29,11 +37,11 @@
     "static/media/Contectbg.png": "/static/media/Contectbg.2ce577c3d70b047af5b3.png",
     "index.html": "/index.html",
     "main.a8acb159.css.map": "/static/css/main.a8acb159.css.map",
-    "main.de33dafe.js.map": "/static/js/main.de33dafe.js.map",
+    "main.2f6c1b2c.js.map": "/static/js/main.2f6c1b2c.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8acb159.css",
-    "static/js/main.de33dafe.js"
+    "static/js/main.2f6c1b2c.js"
   ]
 }
