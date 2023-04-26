@@ -19,14 +19,16 @@ const Contect = () => {
         </HStack>
 
         </VStack>
-        <VStack w={{base:"100%",lg:"50%"}}>
+        <VStack w={{base:"100%",md:"50%",lg:"50%"}} m="auto">
         <Stack
+        
         mt="30px"
           bg={'gray.50'}
           rounded={'xl'}
           p={{ base: 4,  md: 8 }}
           spacing={{ base: 2 }}
          w={{base:"90%",lg:"60%"}}>
+          
           <Stack spacing={4}>
             <Heading
               color={'#693fee'}

@@ -29,6 +29,15 @@ import { FaGithub } from "react-icons/fa";
 import { GrDeploy } from "react-icons/gr";
 import ReadMoreReact from "read-more-react";
 import SwiftSlider from "react-swift-slider";
+import K1 from "../Images/K1.png"
+import K2 from "../Images/K2.png"
+import K3 from "../Images/K3.png"
+import K4 from "../Images/K4.png"
+import M1 from "../Images/M1.png"
+import M2 from "../Images/M2.png"
+import M3 from "../Images/M3.png"
+import M4 from "../Images/M4.png"
+
 export default function Projects() {
   const data = [
     { id: "1", src: Time },
@@ -54,6 +63,19 @@ export default function Projects() {
     { id: "3", src: D3 },
     { id: "4", src: D4 },
   ];
+  const data5 = [
+    { id: "1", src: K1 },
+    { id: "2", src: K2 },
+    { id: "3", src: K3 },
+    { id: "4", src: K4 },
+  ];
+
+  const data6 = [
+    { id: "1", src: M1 },
+    { id: "2", src: M2 },
+    { id: "3", src: M3 },
+    { id: "4", src: M4 },
+  ];
 
   return (
     <Box
@@ -76,6 +98,231 @@ export default function Projects() {
         />
       </Heading>
       <Show above="901px">
+      <HStack pb="40px" w="95%" m="auto" mt="50px">
+          <VStack
+            className="project-card"
+            gap={5}
+            w="50%"
+            borderRight={"3px solid #4f3f7d"}
+          >
+            <Heading className="project-title" color="#2f1c6a">
+              Meesho.com Clone
+            </Heading>
+            <Text
+              className="project-description"
+              w="85%"
+              fontSize={"20px"}
+              color="#4f3f7d"
+              fontFamily={"sans-serif"}
+              textAlign={"left"}
+            >
+              A clone of the Meesho website, which is an online marketplace for individuals and small businesses to sell products through social media channels.
+            </Text>
+            <Flex gap="10px">
+              <Box
+                className="project-tech-stack"
+                fontSize={"20px"}
+                fontFamily={"sans-serif"}
+                fontWeight={"600"}
+                color="#2f1c6a"
+              >
+                TECHSTACK :-
+              </Box>
+              <Box
+                bgColor="#2f1c6a"
+                borderRadius={"5px"}
+                p="5px"
+                fontSize={"15px"}
+                boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px"
+                fontWeight={"bold"}
+                color="#fff"
+              >
+                React
+              </Box>
+              <Box
+                bgColor="#2f1c6a"
+                borderRadius={"5px"}
+                p="5px"
+                fontSize={"15px"}
+                fontWeight={"bold"}
+                color="#fff"
+              >
+                Redux
+              </Box>
+              <Box
+                bgColor="#2f1c6a"
+                borderRadius={"5px"}
+                p="5px"
+                fontSize={"15px"}
+                fontWeight={"bold"}
+                color="#fff"
+              >
+                Chakra ui
+              </Box>
+            </Flex>
+
+            <Box
+              zIndex={2}
+              w="80%"
+              h="380px"
+              boxShadow="rgba(0, 0, 0, 0.80) 0px 3px 8px"
+              borderRadius={"5px"}
+            >
+              {/* <img src={D2} alt="" /> */}
+              <SwiftSlider
+                height={380}
+                enableNextAndPrev={false}
+                interval={2000}
+                showDots={false}
+                data={data5}
+              />
+            </Box>
+
+            <Flex gap="20px">
+              <Link
+                className="project-github-link"
+                target={"_blank"}
+                href="https://github.com/palabhi017/Meesho-Clone"
+              >
+                <Flex
+                  gap="5px"
+                  alignItems={"center"}
+                  color="#693fee"
+                  fontFamily={"sans-serif"}
+                  fontSize={"25px"}
+                >
+                  <FaGithub color="#2f1c6a" />
+                  GitHub
+                </Flex>
+              </Link>
+              <Link
+                className="project-deployed-link"
+                target={"_blank"}
+                href="https://vague-acoustics-7371.vercel.app/"
+              >
+                <Flex
+                  gap="5px"
+                  alignItems={"center"}
+                  color="#693fee"
+                  fontFamily={"sans-serif"}
+                  fontSize={"25px"}
+                >
+                  <GrDeploy color="#2f1c6a" size="20px" />
+                  Deploy
+                </Flex>
+              </Link>
+            </Flex>
+          </VStack>
+          <VStack className="project-card" gap={5} w="50%">
+            <Heading className="project-title" color="#2f1c6a">
+              Koovs.com Clone
+            </Heading>
+            <Text
+              className="project-description"
+              w="85%"
+              fontSize={"20px"}
+              color="#4f3f7d"
+              fontFamily={"sans-serif"}
+              textAlign={"left"}
+            >
+            A clone of the Koovs website, which is an online marketplace for individuals and small businesses to sell products through social media channels.
+
+            </Text>
+            <Flex gap="10px">
+              <Box
+                className="project-tech-stack"
+                fontSize={"20px"}
+                fontFamily={"sans-serif"}
+                fontWeight={"600"}
+                color="#2f1c6a"
+              >
+                TECHSTACK :-
+              </Box>
+              <Box
+                bgColor="#2f1c6a"
+                borderRadius={"5px"}
+                p="5px"
+                fontSize={"15px"}
+                boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px"
+                fontWeight={"bold"}
+                color="#fff"
+              >
+                HTML
+              </Box>
+              <Box
+                bgColor="#2f1c6a"
+                borderRadius={"5px"}
+                p="5px"
+                fontSize={"15px"}
+                fontWeight={"bold"}
+                color="#fff"
+              >
+                CSS
+              </Box>
+              <Box
+                bgColor="#2f1c6a"
+                borderRadius={"5px"}
+                p="5px"
+                fontSize={"15px"}
+                fontWeight={"bold"}
+                color="#fff"
+              >
+                JavaScript
+              </Box>
+            </Flex>
+            <Box
+              zIndex={2}
+              w="80%"
+              h="380px"
+              className="img"
+              boxShadow="rgba(0, 0, 0, 0.80) 0px 3px 8px"
+              borderRadius={"5px"}
+            >
+              {/* <img src={D2} alt="" /> */}
+              <SwiftSlider
+                height={380}
+                enableNextAndPrev={false}
+                interval={2000}
+                showDots={false}
+                data={data6}
+              />
+            </Box>
+            <Flex gap="20px">
+              <Link
+                className="project-github-link"
+                target={"_blank"}
+                href="https://github.com/palabhi017/closed-mask-38"
+              >
+                <Flex
+                  gap="5px"
+                  alignItems={"center"}
+                  color="#693fee"
+                  fontFamily={"sans-serif"}
+                  fontSize={"25px"}
+                >
+                  <FaGithub color="#2f1c6a" />
+                  GitHub
+                </Flex>
+              </Link>
+              <Link
+                className="project-deployed-link"
+                target={"_blank"}
+                href="https://unit6profront.vercel.app/"
+              >
+                <Flex
+                  gap="5px"
+                  alignItems={"center"}
+                  color="#693fee"
+                  fontFamily={"sans-serif"}
+                  fontSize={"25px"}
+                >
+                  <GrDeploy color="#2f1c6a" size="20px" />
+                  Deploy
+                </Flex>
+              </Link>
+            </Flex>
+          </VStack>
+        </HStack>
         <HStack pb="40px" w="95%" m="auto" mt="50px">
           <VStack
             className="project-card"
@@ -477,7 +724,7 @@ export default function Projects() {
               >
                 Redux
               </Box>
-              <Box
+              {/* <Box
                 bgColor="#2f1c6a"
                 borderRadius={"5px"}
                 p="5px"
@@ -486,7 +733,7 @@ export default function Projects() {
                 color="#fff"
               >
                 Chakra ui
-              </Box>
+              </Box> */}
             </Flex>
             <Box
               zIndex={2}

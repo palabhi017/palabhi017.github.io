@@ -1,5 +1,5 @@
-import {Box,Image,HStack,VStack,Text,Heading,Link} from "@chakra-ui/react"
-import Profilepic from "../Images/webdesign.png"
+import {Box,Image,HStack,VStack,Text,Heading,Link, Button} from "@chakra-ui/react"
+import Profilepic from "../Images/favicon.png"
 import Aboutbg from "../Images/Aboutbg.png"
 import {BsLinkedin} from "react-icons/bs"
 import {BiMessageRoundedDetail} from "react-icons/bi"
@@ -8,9 +8,13 @@ import { FaGithub } from 'react-icons/fa';
 import { Show } from '@chakra-ui/react'
 export default function About(){
 
+// function resume(){
+//     window.open("https://drive.google.com/file/d/16ulnv0nv83urH_XCtFO45BqtRk2lSOEi/view?usp=share_link","_blank")
+// }
+
     return (
         <>
-        <Show above="900px" >
+        <Show above="1000px" >
             <Box id="about"  className="about section"  boxSizing="border-box"  w={"100%"}  m="auto" bgImage={Aboutbg} bgSize="100% 100%" h={"600px"} mt={"10px"} borderRadius="10px">
             <Heading  p="30px" color="#693fee" fontSize={"40px"}>About Me</Heading>
             <HStack p="20px"  justifyContent={"space-evenly"} alignItems="center" w={"98%"} m="auto" h={"60%"}  >
@@ -28,7 +32,8 @@ export default function About(){
               <Link   target={"_blank"} href="https://www.linkedin.com/in/abhishek-pal-14416323b/" w="10%" borderRadius={"5px"}><BsLinkedin color="#2f1c6a"  size="30px"/></Link>
                <Link    target={"_blank"} href="https://github.com/palabhi017"  w="14%" borderRadius={"5px"}>  <FaGithub color="#2f1c6a"  size="35px"/></Link>
                <Link  target={"_blank"} href="palabhi017@gmail.com"  borderRadius={"5px"} w="12%"><BiMessageRoundedDetail color="#2f1c6a" size="40px"/></Link>
-               <Link id="resume-link-2" href="Abhishek_Pal_Resume.pdf" onClick={()=>{window.open("https://drive.google.com/file/d/16ulnv0nv83urH_XCtFO45BqtRk2lSOEi/view?usp=share_link")}}  target={"_blank"}  download={"Abhishek_Pal_Resume"}><Text id="resume-button-2" color="white" bgColor="#2f1c6a" p="5px 10px" fontSize={"20px"} borderRadius={"5px"}>Resume</Text></Link> 
+               <Link id="resume-link-2" href="Abhishek_Pal_Resume.pdf"   target={"_blank"}  download={"Abhishek_Pal_Resume"}><Text id="resume-button-2" onClick={()=>{window.open("https://drive.google.com/file/d/16ulnv0nv83urH_XCtFO45BqtRk2lSOEi/view?usp=share_link")}} color="white" bgColor="#2f1c6a" p="5px 10px" fontSize={"20px"} borderRadius={"5px"}>Resume</Text></Link> 
+        {/* <Button id="resume-button-2" onClick={resume} ><a id="resume-link-2" href={"Abhishek_Pal_Resume.pdf"} download={"Abhishek_Pal_Resume"} target="_blank">Resume</a> </Button> */}
         </HStack>
             </VStack>
             </Box>
@@ -38,11 +43,11 @@ export default function About(){
             </Box>
        
         </Show>
-        <Show below="900px">
+        <Show below="1000px">
         <VStack id="sabout" justifyContent={"space-evenly"} boxSizing="border-box" bgColor="#f5f5f7" w={"98%"} m="auto" pb="10px" h={"auto"} mt={"10px"} borderRadius="10px" >
         <Heading id="about.about.section" color="#693fee" p="20px" fontSize={"30px"}>About Me</Heading>
         <Box  w="95%" borderRadius={"10px"}  p="5px"  >
-            <Image className="home-img" w={"100%"}  m="auto" borderRadius={"10px"}  src={Profilepic} alt='' />
+            <Image className="home-img" w={{base:"100%",md:"60%",lg:"100%"}}  m="auto" borderRadius={"10px"}  src={Profilepic} alt='' />
             </Box>
             <VStack>
             <Box w="80%"  >
