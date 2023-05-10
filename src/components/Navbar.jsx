@@ -50,13 +50,13 @@ export default function Navbar() {
         <DrawerContent borderRadius="0px 0px 15px 15px" mt="80px" h="350px">
 
           <DrawerBody>
-            <VStack fontSize={"30px"}>
+            <VStack fontSize={"30px"} >
             <Text w="100%" textAlign={"center"} bgColor="#f5f5f7" _hover={{ bgColor: "#693fee", color: "#fff" }} color="#693fee" borderBottom={"2px solid #1b49be"}><Link scroll={el => el.scrollIntoView({ behavior: 'smooth' })} to="#shome" >Home</Link></Text>
               
               <Text w="100%" textAlign={"center"} bgColor="#f5f5f7" _hover={{ bgColor: "#693fee", color: "#fff" }} color="#693fee" borderBottom={"2px solid #1b49be"}><Link scroll={el => el.scrollIntoView({ behavior: 'smooth' })} to="#sabout" >About</Link></Text>
               <Text w="100%" textAlign={"center"} bgColor="#f5f5f7" _hover={{ bgColor: "#693fee", color: "#fff" }} color="#693fee" borderBottom={"2px solid #1b49be"}><Link scroll={el => el.scrollIntoView({ behavior: 'smooth' })} to="#skills" >Skills</Link></Text>
               <Text w="100%" textAlign={"center"} bgColor="#f5f5f7" _hover={{ bgColor: "#693fee", color: "#fff" }} color="#693fee" borderBottom={"2px solid #1b49be"}><Link scroll={el => el.scrollIntoView({ behavior: 'smooth' })} to="#project" >Project</Link></Text>
-              <Text w="100%" textAlign={"center"} bgColor="#f5f5f7" _hover={{ bgColor: "#693fee", color: "#fff" }} color="#693fee" borderBottom={"2px solid #1b49be"}><Link scroll={el => el.scrollIntoView({ behavior: 'smooth' })} to="#contact" >Contect</Link></Text>
+              <Text w="100%" textAlign={"center"} bgColor="#f5f5f7" _hover={{ bgColor: "#693fee", color: "#fff" }} color="#693fee" borderBottom={"2px solid #1b49be"}><Link scroll={el => el.scrollIntoView({ behavior: 'smooth' })} to="#contact" >Contact</Link></Text>
             <a target="_blank" href="Abhishek_Pal_Resume.pdf" download={"Abhishek_Pal_Resume"} w="100%">  <Text textAlign={"center"} bgColor="#693fee" w="100%" _hover={{ bgColor: "#fff", color: "#693fee" }}   color="#fff" borderBottom={"2px solid #1b49be"}>Resume</Text></a>
             </VStack>
           </DrawerBody>

@@ -23,8 +23,8 @@ export default function About(){
             <VStack>
             <Box   alignItems={"top"} >
                 <Text color="#693fee" fontSize={"30px"} fontWeight="600" fontFamily="cursive"   textAlign={"left"}>Hello..</Text>
-                <Text id="user-detail-name" bgGradient='linear(to-l, #7928CA, #FF0080)' bgClip='text' fontSize={{md:"40px",lg:"60px"}} fontFamily="sans-serif" fontWeight="bold">I'm Abhishek Pal</Text>
-                <Text id="user-detail-intro" mt="-10px" fontFamily='sans-serif' textAlign={"justify"} ml="40px" fontSize={"30px"} color="#693fee" fontWeight={"bold"} >I am a Full stack web developer</Text>
+                <Text id="user-detail-name" bgGradient='linear(to-l, #7928CA, #FF0080)' bgClip='text' fontSize={{md:"2.5rem",lg:"3.5rem"}} fontFamily="sans-serif" fontWeight="bold">I'm Abhishek Pal</Text>
+                <Text id="user-detail-intro" mt="-10px" fontFamily='sans-serif' textAlign={"justify"} ml="40px" fontSize={"1.5rem"} color="#693fee" fontWeight={"bold"} >I am a Full stack web developer</Text>
             </Box>
             {/* <HStack  justify={"center"} gap="20px">
               <Link  id="contact-linkedin" target={"_blank"} href="https://www.linkedin.com/in/abhishek-pal-14416323b/" w="10%" borderRadius={"5px"}><BsLinkedin color="#2f1c6a"  size="30px"/></Link>
@@ -49,7 +49,7 @@ export default function About(){
             <Box   alignItems={"top"} p="30px 0px" >
                 <Text color="#693fee" fontSize={"25px"} fontWeight="600" fontFamily="cursive"   textAlign={"left"}>Hello..</Text>
                 <Text id="user-detail-name" bgGradient='linear(to-l, #7928CA, #FF0080)' bgClip='text' fontSize={"40px"} fontFamily="sans-serif" fontWeight="bold">I'm Abhishek Pal</Text>
-                <Text id="user-detail-intro" mt="-10px" fontFamily='sans-serif' textAlign={"justify"} ml="30px" fontSize={"20px"} color="#693fee" fontWeight={"bold"} >I am a Full stack web developer</Text>
+                <Text id="user-detail-intro" mt="-10px" fontFamily='sans-serif' textAlign={"justify"} ml="30px" fontSize={"1.8rem"} color="#693fee" fontWeight={"bold"} >I am a Full stack web developer</Text>
             </Box>
             {/* <HStack  justify={"center"} gap="20px">
               <Link target={"_blank"} href="https://www.linkedin.com/in/abhishek-pal-14416323b/" w="10%" borderRadius={"5px"}><BsLinkedin color="#2f1c6a"  size="30px"/></Link>
