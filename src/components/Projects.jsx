@@ -182,7 +182,7 @@ export default function Projects() {
               <Link
                 className="project-github-link"
                 target={"_blank"}
-                href="https://github.com/palabhi017/Meesho-Clone"
+                href="https://github.com/palabhi017/E-Commerce"
               >
                 <Flex
                   gap="5px"
@@ -198,7 +198,7 @@ export default function Projects() {
               <Link
                 className="project-deployed-link"
                 target={"_blank"}
-                href="https://vague-acoustics-7371.vercel.app/"
+                href="https://heroic-dolphin-765a29.netlify.app/"
               >
                 <Flex
                   gap="5px"
